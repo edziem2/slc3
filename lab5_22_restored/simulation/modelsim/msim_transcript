@@ -1,0 +1,217 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:18 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:18 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:18 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:18 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:18 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:18 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:18 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv 
+# -- Compiling module mux2_1_16
+# 
+# Top level modules:
+# 	mux2_1_16
+# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:19 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv 
+# -- Compiling module mux4_1_16
+# 
+# Top level modules:
+# 	mux4_1_16
+# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:19 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv 
+# -- Compiling module reg_16
+# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	reg_16
+# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:19 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:19 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:19 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:19 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv 
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:11:19 on Feb 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv 
+# -- Compiling module slc3Test
+# 
+# Top level modules:
+# 	slc3Test
+# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  slc3Test
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" slc3Test 
+# Start time: 12:11:19 on Feb 24,2023
+# Loading sv_std.std
+# Loading work.slc3Test
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.datapath
+# Loading work.mux4_1_16
+# Loading work.mux2_1_16
+# Loading work.Mem2IO
+# Loading work.ISDU
+# Loading work.reg_16
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(9): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/MDR_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/PC_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 30 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 110 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 150 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 210 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 370 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 410 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 470 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 610 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 650 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 710 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# End time: 15:53:20 on Feb 24,2023, Elapsed time: 3:42:01
+# Errors: 0, Warnings: 14
