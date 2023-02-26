@@ -49,11 +49,11 @@ logic GatePC, GateMDR, GateALU, GateMARMUX;
 logic SR2MUX, ADDR1MUX, MARMUX;
 logic MIO_EN, DRMUX, SR1MUX;
 logic [1:0] PCMUX, ADDR2MUX, ALUK;
-logic [15:0] MDR_In, PC_In;
-logic [15:0] MAR, MDR, IR, PC;
+logic [15:0] MDR_In, PC_In, ALU_A, ALU_B;
+logic [15:0] MAR, MDR, IR, PC, ALU;
 logic [2:0] CC_In, CC;
 logic BEN_IN, BEN;
-logic [15:0] Data_to_CPU, ADDR1, ADDR2;
+logic [15:0] Data_to_CPU;
 
 // Bus
 logic [15:0] Bus;
@@ -92,6 +92,9 @@ reg_16 _IR (.Clk(Clk), .Reset(Reset), .Load(LD_IR), .D(Bus), .Data_Out(IR));
 reg_16 _PC (.Clk(Clk), .Reset(Reset), .Load(LD_PC), .D(PC_In), .Data_Out(PC));
 reg_3 _CC (.Clk(Clk), .Reset(Reset), .Load(LD_CC), .D(CC_In), .Data_Out(CC)); // condition code register. B0 = P, B1 = Z, B2 = N
 reg_1 _BEN (.Clk(Clk), .Reset(Reset), .Load(LD_BEN), .D(BEN_In), .Data_Out(BEN)); // Branch Enable register
+
+// ALU
+alu _ALU (.A(ALU_A), .B(ALU_B), .ALUK(ALUK), .ALU_Out(ALU));
 
 // SRAM WE register
 //logic SRAM_WE_In, SRAM_WE;

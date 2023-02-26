@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab5
-Sun Feb 26 15:07:54 2023
+Sun Feb 26 15:59:57 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -25,14 +25,24 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  17. altsyncram Parameter Settings by Entity Instance
  18. Port Connectivity Checks: "Instantiateram:instaRam"
  19. Port Connectivity Checks: "slc3:slc|Mem2IO:memory_subsystem"
- 20. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:ADDR2_MUX"
- 21. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:BUS_MUX"
- 22. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:PC_MUX"
- 23. Port Connectivity Checks: "slc3:slc"
- 24. Post-Synthesis Netlist Statistics for Top Partition
- 25. Elapsed Time Per Partition
- 26. Analysis & Synthesis Messages
- 27. Analysis & Synthesis Suppressed Messages
+ 20. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla3"
+ 21. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla2"
+ 22. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla1"
+ 23. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa2"
+ 24. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa1"
+ 25. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa0"
+ 26. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0"
+ 27. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder"
+ 28. Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:SR2_MUX"
+ 29. Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:ADDR1_MUX"
+ 30. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:ADDR2_MUX"
+ 31. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:PC_MUX"
+ 32. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:BUS_MUX"
+ 33. Port Connectivity Checks: "slc3:slc"
+ 34. Post-Synthesis Netlist Statistics for Top Partition
+ 35. Elapsed Time Per Partition
+ 36. Analysis & Synthesis Messages
+ 37. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -58,7 +68,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Feb 26 15:07:54 2023       ;
+; Analysis & Synthesis Status        ; Successful - Sun Feb 26 15:59:57 2023       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab5                                        ;
 ; Top-level Entity Name              ; slc3_sramtop                                ;
@@ -200,6 +210,10 @@ refer to the applicable agreement for further details.
 ; ram.v                            ; yes             ; User Wizard-Generated File   ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ram.v                        ;         ;
 ; reg_3.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_3.sv                     ;         ;
 ; reg_1.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_1.sv                     ;         ;
+; lookahead_adder.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv           ;         ;
+; fourbit_lookahead.sv             ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv         ;         ;
+; full_adder.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv                ;         ;
+; alu.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv                       ;         ;
 ; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf              ;         ;
 ; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc       ;         ;
 ; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc                 ;         ;
@@ -366,7 +380,7 @@ Encoding Type:  One-Hot
 ; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |slc3_sramtop|slc3:slc|reg_16:_IR|Data_Out[2]             ;
 ; 5:1                ; 6 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; Yes        ; |slc3_sramtop|slc3:slc|reg_16:_MDR|Data_Out[12]           ;
 ; 5:1                ; 10 bits   ; 30 LEs        ; 20 LEs               ; 10 LEs                 ; Yes        ; |slc3_sramtop|slc3:slc|reg_16:_MDR|Data_Out[1]            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |slc3_sramtop|slc3:slc|datapath:d0|mux4_1_16:BUS_MUX|Mux1 ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; No         ; |slc3_sramtop|slc3:slc|datapath:d0|mux4_1_16:BUS_MUX|Mux1 ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |slc3_sramtop|slc3:slc|ISDU:state_controller|State        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------+
 
@@ -482,6 +496,102 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+--------+----------+-----------------------------------+
 
 
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla3"            ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Pg   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; Gg   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla2"                                   ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                  ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; seeout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla1"                                   ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                  ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; seeout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa2"                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; c    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa1"                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; c    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa0"                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; c    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0"                                   ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                  ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; seeout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder"                                                                                           ;
++------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                                                     ;
++------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+; A    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "A[15..1]" will be connected to GND. ;
+; B    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "B[15..1]" will be connected to GND. ;
+; cin  ; Input  ; Info     ; Stuck at GND                                                                                                                                ;
+; S    ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "S[15..1]" have no fanouts                      ;
+; cout ; Output ; Info     ; Explicitly unconnected                                                                                                                      ;
++------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:SR2_MUX" ;
++------+-------+----------+------------------------------------------+
+; Port ; Type  ; Severity ; Details                                  ;
++------+-------+----------+------------------------------------------+
+; A_In ; Input ; Info     ; Stuck at GND                             ;
++------+-------+----------+------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:ADDR1_MUX"                                                                                   ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                                                                    ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
+; B_In  ; Input  ; Info     ; Stuck at GND                                                                                                               ;
+; Q_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Q_Out[15..1]" have no fanouts ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
+
+
 +--------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:ADDR2_MUX"                                                                                   ;
 +-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
@@ -489,28 +599,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
 ; A_In  ; Input  ; Info     ; Stuck at GND                                                                                                               ;
 ; Q_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Q_Out[15..1]" have no fanouts ;
-; Q_Out ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                        ;
 +-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:BUS_MUX" ;
-+------+-------+----------+------------------------------------------+
-; Port ; Type  ; Severity ; Details                                  ;
-+------+-------+----------+------------------------------------------+
-; C_In ; Input ; Info     ; Stuck at GND                             ;
-; D_In ; Input ; Info     ; Stuck at GND                             ;
-+------+-------+----------+------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:PC_MUX"                                                                                                        ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                        ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; B_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "B_In[15..1]" will be connected to GND. ;
+; D_In ; Input ; Info     ; Stuck at GND                                                                                                                                   ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:PC_MUX" ;
-+------+-------+----------+-----------------------------------------+
-; Port ; Type  ; Severity ; Details                                 ;
-+------+-------+----------+-----------------------------------------+
-; B_In ; Input ; Info     ; Stuck at GND                            ;
-; D_In ; Input ; Info     ; Stuck at GND                            ;
-+------+-------+----------+-----------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:BUS_MUX"                                                                                                       ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                        ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; C_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "C_In[15..1]" will be connected to GND. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------+
@@ -571,7 +679,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Feb 26 15:07:45 2023
+    Info: Processing started: Sun Feb 26 15:59:48 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab5 -c lab5
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -615,21 +723,36 @@ Info (12021): Found 1 design units, including 1 entities, in source file reg_3.s
     Info (12023): Found entity 1: reg_3 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_3.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_1.sv
     Info (12023): Found entity 1: reg_1 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_1.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file lookahead_adder.sv
+    Info (12023): Found entity 1: lookahead_adder File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file fourbit_lookahead.sv
+    Info (12023): Found entity 1: fourbit_lookahead File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file full_adder.sv
+    Info (12023): Found entity 1: full_adder File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
+    Info (12023): Found entity 1: alu File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv Line: 1
 Warning (10236): Verilog HDL Implicit Net warning at slc3.sv(94): created implicit net for "BEN_In" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 94
-Warning (10236): Verilog HDL Implicit Net warning at datapath.sv(32): created implicit net for "ADDR2" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 32
+Warning (10236): Verilog HDL Implicit Net warning at datapath.sv(31): created implicit net for "ADDR_Adder" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 31
+Warning (10236): Verilog HDL Implicit Net warning at datapath.sv(35): created implicit net for "ADDR2" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 35
+Warning (10236): Verilog HDL Implicit Net warning at datapath.sv(36): created implicit net for "ADDR1" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 36
 Info (12127): Elaborating entity "slc3_sramtop" for the top level hierarchy
 Info (12128): Elaborating entity "sync" for hierarchy "sync:button_sync[0]" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 16
 Info (12128): Elaborating entity "slc3" for hierarchy "slc3:slc" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 63
 Warning (10034): Output port "LED" at slc3.sv(23) has no driver File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 23
 Info (12128): Elaborating entity "HexDriver" for hierarchy "slc3:slc|HexDriver:hex_drivers[0]" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 40
 Info (12128): Elaborating entity "datapath" for hierarchy "slc3:slc|datapath:d0" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 68
-Info (12128): Elaborating entity "mux4_1_16" for hierarchy "slc3:slc|datapath:d0|mux4_1_16:PC_MUX" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 29
-Info (12128): Elaborating entity "mux2_1_16" for hierarchy "slc3:slc|datapath:d0|mux2_1_16:MDR_MUX" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 31
+Info (12128): Elaborating entity "mux4_1_16" for hierarchy "slc3:slc|datapath:d0|mux4_1_16:BUS_MUX" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 31
+Info (12128): Elaborating entity "mux2_1_16" for hierarchy "slc3:slc|datapath:d0|mux2_1_16:MDR_MUX" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 34
+Info (12128): Elaborating entity "lookahead_adder" for hierarchy "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 39
+Info (12128): Elaborating entity "fourbit_lookahead" for hierarchy "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv Line: 25
+Info (12128): Elaborating entity "full_adder" for hierarchy "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa0" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv Line: 34
 Info (12128): Elaborating entity "Mem2IO" for hierarchy "slc3:slc|Mem2IO:memory_subsystem" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 78
 Info (12128): Elaborating entity "ISDU" for hierarchy "slc3:slc|ISDU:state_controller" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 85
 Info (12128): Elaborating entity "reg_16" for hierarchy "slc3:slc|reg_16:_MAR" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 89
 Info (12128): Elaborating entity "reg_3" for hierarchy "slc3:slc|reg_3:_CC" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 93
 Info (12128): Elaborating entity "reg_1" for hierarchy "slc3:slc|reg_1:_BEN" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 94
+Info (12128): Elaborating entity "alu" for hierarchy "slc3:slc|alu:_ALU" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 97
+Warning (10034): Output port "ALU_Out" at alu.sv(5) has no driver File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv Line: 5
 Info (12128): Elaborating entity "Instantiateram" for hierarchy "Instantiateram:instaRam" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 65
 Warning (10230): Verilog HDL assignment warning at Instantiateram.sv(51): truncated value with size 32 to match size of target (16) File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Instantiateram.sv Line: 51
 Warning (10230): Verilog HDL assignment warning at SLC3_2.sv(119): truncated value with size 32 to match size of target (5) File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv Line: 119
@@ -655,7 +778,7 @@ Info (12133): Instantiated megafunction "ram:ram0|altsyncram:altsyncram_componen
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_hag1.tdf
     Info (12023): Found entity 1: altsyncram_hag1 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/db/altsyncram_hag1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_hag1" for hierarchy "ram:ram0|altsyncram:altsyncram_component|altsyncram_hag1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (12241): 11 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LED[0]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
     Warning (13410): Pin "LED[1]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
@@ -677,11 +800,11 @@ Info (21057): Implemented 590 device resources after synthesis - the final resou
     Info (21059): Implemented 38 output pins
     Info (21061): Implemented 523 logic cells
     Info (21064): Implemented 16 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 18 warnings
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
     Info: Peak virtual memory: 4845 megabytes
-    Info: Processing ended: Sun Feb 26 15:07:54 2023
+    Info: Processing ended: Sun Feb 26 15:59:57 2023
     Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Total CPU time (on all processors): 00:00:19
 
 
 +------------------------------------------+
