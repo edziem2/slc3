@@ -1,6 +1,5 @@
 module datapath (
-	input logic LD_REG,
-					LD_PC,
+	input logic LD_PC,
 					LD_LED, // for PAUSE instruction
 					GatePC,
 					GateMDR,
@@ -18,10 +17,12 @@ module datapath (
 							 Data_to_CPU,
 							 IR,
 							 ALU,
+							 SR2_Out,
 	output logic [15:0] PC_In,
 							  Bus,
 							  MDR_In,
 							  ALU_B,
+	output logic [2:0] SR1, DR,
 	output logic BEN_In
 );
 
@@ -35,6 +36,8 @@ mux2_1_16 MDR_MUX (.S(MIO_EN), .A_In(Bus), .B_In(Data_to_CPU), .Q_Out(MDR_In));
 mux4_1_16 ADDR2_MUX (.S(ADDR2MUX), .A_In(16'b0), .B_In({IR[10], IR[10], IR[10], IR[10], IR[10], IR[10:0]}), .C_In({IR[8], IR[8], IR[8], IR[8], IR[8], IR[8], IR[8], IR[8:0]}), .D_In({IR[5], IR[5], IR[5], IR[5], IR[5], IR[5], IR[5], IR[5], IR[5], IR[5], IR[5:0]}), .Q_Out(ADDR2));
 mux2_1_16 ADDR1_MUX (.S(ADDR1MUX), .A_In(PC), .B_In(16'b0), .Q_Out(ADDR1));
 mux2_1_16 SR2_MUX (.S(SR2MUX), .A_In(16'b0), .B_In({IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4:0]}), .Q_Out(ALU_B));
+mux2_1_16 SR1_MUX (.S(SR1MUX), .A_In(IR[8:6]), .B_In(IR[11:9]), .Q_Out(SR1));
+mux2_1_16 DR_MUX (.S(DRMUX), .A_In(IR[11:9]), .B_In(3'b111), .Q_Out(DR));
 
 lookahead_adder _ADDR_Adder (.A(ADDR1), .B(ADDR2), .cin(1'b0), .S(ADDR_Adder), .cout());
 
