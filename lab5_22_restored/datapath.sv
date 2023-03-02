@@ -42,7 +42,7 @@ mux4_1_16 PC_MUX (.S(PCMUX), .A_In(pc_plus_one), .B_In(ADDR_Adder), .C_In(Bus), 
 mux2_1_16 MDR_MUX (.S(MIO_EN), .A_In(Bus), .B_In(Data_to_CPU), .Q_Out(MDR_In));
 mux4_1_16 ADDR2_MUX (.S(ADDR2MUX), .A_In(16'b0), .D_In({IR[10], IR[10], IR[10], IR[10], IR[10], IR[10:0]}), .C_In({IR[8], IR[8], IR[8], IR[8], IR[8], IR[8], IR[8], IR[8:0]}), .B_In({IR[5], IR[5], IR[5], IR[5], IR[5], IR[5], IR[5], IR[5], IR[5], IR[5], IR[5:0]}), .Q_Out(ADDR2));
 mux2_1_16 ADDR1_MUX (.S(ADDR1MUX), .A_In(PC), .B_In(SR1_Out), .Q_Out(ADDR1));
-mux2_1_16 SR2_MUX (.S(SR2MUX), .A_In(16'b0), .B_In({IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4:0]}), .Q_Out(ALU_B));
+mux2_1_16 SR2_MUX (.S(SR2MUX), .A_In(SR2_Out), .B_In({IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4],IR[4:0]}), .Q_Out(ALU_B));
 mux2_1_16 SR1_MUX (.S(SR1MUX), .A_In(IR[8:6]), .B_In(IR[11:9]), .Q_Out(SR1));
 mux2_1_16 DR_MUX (.S(DRMUX), .A_In(IR[11:9]), .B_In(3'b111), .Q_Out(DR));
 

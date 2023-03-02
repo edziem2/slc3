@@ -59,7 +59,7 @@ logic [1:0] PCMUX, ADDR2MUX, ALUK;
 logic [15:0] MDR_In, PC_In, ALU_B;
 logic [15:0] MAR, MDR, IR, PC, ALU;
 logic [2:0] CC_In, CC;
-logic [2:0] SR1, DR, SR2; // for Reg file
+logic [2:0] SR1, DR; // for Reg file
 logic BEN_IN, BEN;
 
 
@@ -104,7 +104,7 @@ reg_1 _BEN (.Clk(Clk), .Reset(Reset), .Load(LD_BEN), .D(BEN_In), .Data_Out(BEN))
 alu _ALU (.A(SR1_Out), .B(ALU_B), .ALUK(ALUK), .ALU(ALU));
 
 // Register file
-reg_file rf (.*);
+reg_file rf (.*, .SR2(IR[2:0]));
 
 // SRAM WE register
 //logic SRAM_WE_In, SRAM_WE;
