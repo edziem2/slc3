@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "MAX 10"
 set_global_assignment -name DEVICE 10M50DAF484C7G
-set_global_assignment -name TOP_LEVEL_ENTITY slc3_sramtop
+set_global_assignment -name TOP_LEVEL_ENTITY slc3_testtop
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:39:07  FEBRUARY 20, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
@@ -55,9 +55,8 @@ set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -sectio
 set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH slc3Test -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME slc3Test -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id slc3Test
-set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1000 ns" -section_id slc3Test
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "20000 ns" -section_id slc3Test
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME slc3Test -section_id slc3Test
-set_global_assignment -name EDA_TEST_BENCH_FILE slc3Test.sv -section_id slc3Test
 set_global_assignment -name SYSTEMVERILOG_FILE test_memory.sv
 set_global_assignment -name SYSTEMVERILOG_FILE synchronizers.sv
 set_global_assignment -name SYSTEMVERILOG_FILE slc3_testtop.sv
@@ -122,7 +121,20 @@ set_location_assignment PIN_C12 -to SW[3]
 set_location_assignment PIN_D12 -to SW[2]
 set_location_assignment PIN_C11 -to SW[1]
 set_location_assignment PIN_C10 -to SW[0]
-set_global_assignment -name SYSTEMVERILOG_FILE output_files/slc3_sramtop.sv
+set_global_assignment -name QIP_FILE ram.qip
+set_location_assignment PIN_B8 -to Continue
+set_location_assignment PIN_A7 -to Run
+set_global_assignment -name SYSTEMVERILOG_FILE reg_3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE reg_1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE lookahead_adder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE fourbit_lookahead.sv
+set_global_assignment -name SYSTEMVERILOG_FILE full_adder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE alu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE reg_file.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux8_1_16.sv
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name IO_STANDARD "2.5 V" -to Clk
 set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[6]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[5]
@@ -188,18 +200,5 @@ set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[3]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[2]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[1]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[0]
-set_global_assignment -name QIP_FILE ram.qip
-set_location_assignment PIN_B8 -to Continue
-set_location_assignment PIN_A7 -to Run
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name SYSTEMVERILOG_FILE reg_3.sv
-set_global_assignment -name SYSTEMVERILOG_FILE reg_1.sv
-set_global_assignment -name SYSTEMVERILOG_FILE lookahead_adder.sv
-set_global_assignment -name SYSTEMVERILOG_FILE fourbit_lookahead.sv
-set_global_assignment -name SYSTEMVERILOG_FILE full_adder.sv
-set_global_assignment -name SYSTEMVERILOG_FILE alu.sv
-set_global_assignment -name SYSTEMVERILOG_FILE reg_file.sv
-set_global_assignment -name SYSTEMVERILOG_FILE mux8_1_16.sv
+set_global_assignment -name EDA_TEST_BENCH_FILE slc3Test.sv -section_id slc3Test
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

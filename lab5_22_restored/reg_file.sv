@@ -1,12 +1,13 @@
 module reg_file (
-	input [15:0] Bus,
-	input [2:0] DR, SR1, SR2,
-	input LD_REG, Clk,
-	output [15:0] SR1_Out, SR2_Out
+	input logic [15:0] Bus,
+	input logic [2:0] DR, SR1, SR2,
+	input logic LD_REG, Clk,
+	output logic [15:0] SR1_Out, SR2_Out,
+	output logic [15:0] R0, R1, R2, R3, R4, R5, R6, R7 // FOR DEBUGGING
 );
 
 logic L0, L1, L2, L3, L4, L5, L6, L7; // load for each register
-logic R0, R1, R2, R3, R4, R5, R6, R7; // Outputs of each register
+// logic [15:0] R0, R1, R2, R3, R4, R5, R6, R7; // Outputs of each register
 
 reg_16 _R0 (.Clk(Clk), .Reset(), .Load(L0), .D(Bus), .Data_Out(R0));
 reg_16 _R1 (.Clk(Clk), .Reset(), .Load(L1), .D(Bus), .Data_Out(R1));

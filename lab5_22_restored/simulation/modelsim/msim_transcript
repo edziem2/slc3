@@ -12,17 +12,17 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:18 on Feb 24,2023
+# Start time: 19:50:57 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv 
 # -- Compiling module test_memory
 # 
 # Top level modules:
 # 	test_memory
-# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:18 on Feb 24,2023
+# Start time: 19:50:57 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv 
 # -- Compiling module sync
 # -- Compiling module sync_r0
@@ -32,102 +32,162 @@
 # 	sync
 # 	sync_r0
 # 	sync_r1
-# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:18 on Feb 24,2023
+# Start time: 19:50:57 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv 
 # -- Compiling package SLC3_2
 # 
 # Top level modules:
 # 	--none--
-# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:18 on Feb 24,2023
+# Start time: 19:50:57 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv 
 # -- Compiling module Mem2IO
 # 
 # Top level modules:
 # 	Mem2IO
-# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:18 on Feb 24,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv 
-# -- Compiling module ISDU
-# 
-# Top level modules:
-# 	ISDU
-# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:18 on Feb 24,2023
+# Start time: 19:50:57 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 12:11:18 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:18 on Feb 24,2023
+# Start time: 19:50:57 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv 
 # -- Compiling module mux2_1_16
 # 
 # Top level modules:
 # 	mux2_1_16
-# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:01
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:19 on Feb 24,2023
+# Start time: 19:50:57 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv 
 # -- Compiling module mux4_1_16
 # 
 # Top level modules:
 # 	mux4_1_16
-# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:19 on Feb 24,2023
+# Start time: 19:50:57 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv 
 # -- Compiling module reg_16
 # ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	reg_16
-# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/HexDriver.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:19 on Feb 24,2023
+# Start time: 19:50:57 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/HexDriver.sv 
 # -- Compiling module HexDriver
 # 
 # Top level modules:
 # 	HexDriver
-# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv}
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_3.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:19 on Feb 24,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv 
-# -- Compiling module slc3
+# Start time: 19:50:57 on Mar 01,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_3.sv 
+# -- Compiling module reg_3
 # 
 # Top level modules:
-# 	slc3
-# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# 	reg_3
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:50:57 on Mar 01,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:50:57 on Mar 01,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv 
+# -- Compiling module lookahead_adder
+# 
+# Top level modules:
+# 	lookahead_adder
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:50:57 on Mar 01,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv 
+# -- Compiling module fourbit_lookahead
+# 
+# Top level modules:
+# 	fourbit_lookahead
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:50:57 on Mar 01,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 19:50:57 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:50:57 on Mar 01,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 19:50:58 on Mar 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:50:58 on Mar 01,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 19:50:58 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:50:58 on Mar 01,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv 
+# -- Compiling module mux8_1_16
+# 
+# Top level modules:
+# 	mux8_1_16
+# End time: 19:50:58 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:19 on Feb 24,2023
+# Start time: 19:50:58 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv 
 # -- Compiling package memory_contents_sv_unit
 # -- Importing package SLC3_2
@@ -135,33 +195,62 @@
 # 
 # Top level modules:
 # 	memory_parser
-# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:58 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:50:58 on Mar 01,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv 
+# -- Compiling package SLC3_2
+# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(307): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(329): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(374): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling package ISDU_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module ISDU
+# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(307): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(329): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(374): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	ISDU
+# End time: 19:50:58 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:50:58 on Mar 01,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 19:50:58 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:19 on Feb 24,2023
+# Start time: 19:50:58 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv 
 # -- Compiling module slc3_testtop
 # 
 # Top level modules:
 # 	slc3_testtop
-# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:58 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:11:19 on Feb 24,2023
+# Start time: 19:50:58 on Mar 01,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv 
 # -- Compiling module slc3Test
 # 
 # Top level modules:
 # 	slc3Test
-# End time: 12:11:19 on Feb 24,2023, Elapsed time: 0:00:00
+# End time: 19:50:58 on Mar 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  slc3Test
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" slc3Test 
-# Start time: 12:11:19 on Feb 24,2023
+# Start time: 19:50:58 on Mar 01,2023
 # Loading sv_std.std
 # Loading work.slc3Test
 # Loading work.slc3_testtop
@@ -169,49 +258,299 @@
 # Loading work.datapath
 # Loading work.mux4_1_16
 # Loading work.mux2_1_16
+# Loading work.lookahead_adder
+# Loading work.fourbit_lookahead
+# Loading work.full_adder
 # Loading work.Mem2IO
+# Loading work.SLC3_2
+# Loading work.ISDU_sv_unit
 # Loading work.ISDU
 # Loading work.reg_16
+# Loading work.reg_3
+# Loading work.reg_1
+# Loading work.alu
+# Loading work.reg_file
+# Loading work.mux8_1_16
 # Loading work.test_memory
-# Loading work.SLC3_2
 # Loading work.memory_contents_sv_unit
 # Loading work.memory_parser
 # Loading work.HexDriver
 # Loading work.sync
+# ** Warning: (vsim-3015) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv(46): [PCDPC] - Port size (16) does not match connection size (3) for port 'A_In'. The port definition is at: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/SR1_MUX File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv
+# ** Warning: (vsim-3015) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv(46): [PCDPC] - Port size (16) does not match connection size (3) for port 'B_In'. The port definition is at: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/SR1_MUX File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv
+# ** Warning: (vsim-3015) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv(46): [PCDPC] - Port size (16) does not match connection size (3) for port 'Q_Out'. The port definition is at: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/SR1_MUX File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv
+# ** Warning: (vsim-3015) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv(47): [PCDPC] - Port size (16) does not match connection size (3) for port 'A_In'. The port definition is at: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/DR_MUX File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv
+# ** Warning: (vsim-3015) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv(47): [PCDPC] - Port size (16) does not match connection size (3) for port 'B_In'. The port definition is at: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/DR_MUX File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv
+# ** Warning: (vsim-3015) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv(47): [PCDPC] - Port size (16) does not match connection size (3) for port 'Q_Out'. The port definition is at: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/DR_MUX File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv(25): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla0 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv(25): [TFMPC] - Missing connection for port 'seeout'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(34): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla0/fa0 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(34): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla0/fa1 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(35): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(36): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla0/fa2 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(36): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv(26): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla1 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv(26): [TFMPC] - Missing connection for port 'seeout'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(34): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla1/fa0 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(34): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla1/fa1 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(35): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(36): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla1/fa2 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(36): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv(27): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla2 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv(27): [TFMPC] - Missing connection for port 'seeout'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(34): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla2/fa0 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(34): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla2/fa1 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(35): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(36): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla2/fa2 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(36): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(34): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla3/fa0 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(34): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla3/fa1 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(35): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(36): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/_ADDR_Adder/cla3/fa2 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv
+# ** Warning: (vsim-3722) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv(36): [TFMPC] - Missing connection for port 'c'.
 # 
 # add wave *
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run 1000 ns
+# run 20000 ns
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/rf/SR2OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/rf/SR1OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(9): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/DR_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(9): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/SR1_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(9): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/SR2_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(9): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/ADDR1_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/ADDR2_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv(9): No condition is true in the unique/priority if/case statement.
 #    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/MDR_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/BUS_MUX
-# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/PC_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 0 ps  Iteration: 1  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 30 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 30 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 110 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 110 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 150 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 210 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 250 ns  Iteration: 2  Instance: /slc3Test/s/slc/rf/SR2OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 270 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 270 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 310 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 370 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 410 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 410 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 470 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 410 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 610 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 450 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 510 ns  Iteration: 2  Instance: /slc3Test/s/slc/rf/SR2OUT
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 650 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 530 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 710 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
-# End time: 15:53:20 on Feb 24,2023, Elapsed time: 3:42:01
-# Errors: 0, Warnings: 14
+#    Time: 530 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 570 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 630 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 690 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 690 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 730 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 790 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 850 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 850 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 890 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 950 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1170 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1170 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1210 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1270 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1310 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1310 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1350 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1430 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1430 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1470 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1530 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2270 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2270 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2310 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2370 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2410 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2410 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2450 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 2510 ns  Iteration: 2  Instance: /slc3Test/s/slc/rf/SR2OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2530 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2530 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2570 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2630 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 2670 ns  Iteration: 2  Instance: /slc3Test/s/slc/rf/SR2OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2690 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2690 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2730 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2790 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 2830 ns  Iteration: 2  Instance: /slc3Test/s/slc/rf/SR2OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2850 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2850 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2890 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 2950 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 2990 ns  Iteration: 2  Instance: /slc3Test/s/slc/rf/SR2OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3010 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3010 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3050 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3110 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 3150 ns  Iteration: 2  Instance: /slc3Test/s/slc/rf/SR2OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3170 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3170 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3210 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3270 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 3310 ns  Iteration: 2  Instance: /slc3Test/s/slc/rf/SR2OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3330 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3330 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3370 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3430 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 3470 ns  Iteration: 2  Instance: /slc3Test/s/slc/rf/SR2OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3490 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3490 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3530 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3590 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv(15): No condition is true in the unique/priority if/case statement.
+#    Time: 3630 ns  Iteration: 2  Instance: /slc3Test/s/slc/rf/SR2OUT
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3650 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3650 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3690 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3750 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3810 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3810 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3850 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3910 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 3970 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4010 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4070 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4070 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4110 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4170 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX

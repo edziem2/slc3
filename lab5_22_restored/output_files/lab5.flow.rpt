@@ -1,5 +1,5 @@
 Flow report for lab5
-Tue Feb 28 16:57:51 2023
+Wed Mar 01 19:50:16 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,20 +40,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Feb 28 16:57:51 2023       ;
+; Flow Status                        ; Successful - Wed Mar 01 19:50:16 2023       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab5                                        ;
-; Top-level Entity Name              ; slc3_sramtop                                ;
+; Top-level Entity Name              ; slc3_testtop                                ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 507                                         ;
-;     Total combinational functions  ; 489                                         ;
-;     Dedicated logic registers      ; 92                                          ;
-; Total registers                    ; 92                                          ;
-; Total pins                         ; 51                                          ;
+; Total logic elements               ; 583                                         ;
+;     Total combinational functions  ; 453                                         ;
+;     Dedicated logic registers      ; 224                                         ;
+; Total registers                    ; 224                                         ;
+; Total pins                         ; 382                                         ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 16,384                                      ;
+; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
 ; Total PLLs                         ; 0                                           ;
 ; UFM blocks                         ; 0                                           ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/28/2023 16:57:42 ;
+; Start date & time ; 03/01/2023 19:50:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab5                ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+--------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name  ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+--------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 154535786495760.167762506232276        ; --            ; --           ; --             ;
+; COMPILER_SIGNATURE_ID                ; 154535786495760.167772180815712        ; --            ; --           ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --           ; slc3Test       ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; slc3Test                               ; --            ; --           ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --           ; eda_simulation ;
@@ -86,18 +86,18 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_FILE                  ; slc3Test.sv                            ; --            ; --           ; slc3Test       ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; slc3Test                               ; --            ; --           ; slc3Test       ;
 ; EDA_TEST_BENCH_NAME                  ; slc3Test                               ; --            ; --           ; eda_simulation ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                                ; --            ; --           ; slc3Test       ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 20000 ns                               ; --            ; --           ; slc3Test       ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --           ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --           ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --           ; --             ;
 ; MISC_FILE                            ; ram_bb.v                               ; --            ; --           ; --             ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; slc3_sramtop ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; slc3_sramtop ; Top            ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; slc3_sramtop ; Top            ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; slc3_testtop ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; slc3_testtop ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; slc3_testtop ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --           ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --           ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --           ; --             ;
-; TOP_LEVEL_ENTITY                     ; slc3_sramtop                           ; lab5          ; --           ; --             ;
+; TOP_LEVEL_ENTITY                     ; slc3_testtop                           ; lab5          ; --           ; --             ;
 +--------------------------------------+----------------------------------------+---------------+--------------+----------------+
 
 
@@ -106,7 +106,7 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4846 MB             ; 00:00:18                           ;
+; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4843 MB             ; 00:00:18                           ;
 ; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:18                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 

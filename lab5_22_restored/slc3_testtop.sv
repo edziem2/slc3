@@ -9,18 +9,27 @@ module slc3_testtop(
 	output logic [15:0] tb_MAR,
 	output logic [15:0] tb_PC,
 	output logic [15:0] tb_MDR,
-	output logic [15:0] tb_IR
+	output logic [15:0] tb_IR,
 	//output logic       CE, UB, LB, OE, WE,
 	//output logic [19:0] ADDR,
 	//inout wire [15:0] Data 
+	output logic [7:0] stateNum, // FOR DEBUGGING
+	output logic [15:0] Data_to_CPU, // FOR DEBUGGING
+	output logic LD_MDR, // FOR DEBUGGING
+	output logic [15:0] Data_from_SRAM, // FOR DEBUGGING
+	output logic [15:0] ADDR, // FOR DEBUGGING
+	output logic [15:0] DEBUGADDR_1, DEBUGADDR_2, SR1_Out, SR2_Out, Bus, R0, R1, R2, R3, R4, R5, R6, R7, // FOR DEBUGGING
+	output logic [1:0] BUSMUX // FOR DEBUGGING
 );
 // Input button synchronizer to cross clock domain
 logic RUN_S, CONTINUE_S;
 sync button_sync[1:0] (Clk, {Run, Continue}, {RUN_S, CONTINUE_S});
 
-logic [15:0] Data_from_SRAM, Data_to_SRAM; //needs to be wire since bidirectional
+//logic [15:0] Data_from_SRAM;
+//logic [15:0] ADDR;
+logic [15:0] Data_to_SRAM; //needs to be wire since bidirectional
 logic OE, WE;
-logic [15:0] ADDR;
+
 
 // Declaration of push button active high signals	
 logic Reset_ah, Continue_ah, Run_ah;

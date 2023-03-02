@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab5
-Tue Feb 28 16:57:51 2023
+Wed Mar 01 19:50:16 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -13,49 +13,37 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Analysis & Synthesis RAM Summary
-  9. Analysis & Synthesis IP Cores Summary
- 10. State Machine - |slc3_sramtop|Instantiateram:instaRam|state
- 11. State Machine - |slc3_sramtop|slc3:slc|ISDU:state_controller|State
- 12. Registers Removed During Synthesis
- 13. General Register Statistics
- 14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Source assignments for ram:ram0|altsyncram:altsyncram_component|altsyncram_hag1:auto_generated
- 16. Parameter Settings for User Entity Instance: ram:ram0|altsyncram:altsyncram_component
- 17. altsyncram Parameter Settings by Entity Instance
- 18. Port Connectivity Checks: "Instantiateram:instaRam"
- 19. Port Connectivity Checks: "slc3:slc|reg_file:comb_20|mux8_1_16:SR2OUT"
- 20. Port Connectivity Checks: "slc3:slc|reg_file:comb_20|mux8_1_16:SR1OUT"
- 21. Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R7"
- 22. Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R6"
- 23. Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R5"
- 24. Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R4"
- 25. Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R3"
- 26. Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R2"
- 27. Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R1"
- 28. Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R0"
- 29. Port Connectivity Checks: "slc3:slc|reg_file:comb_20"
- 30. Port Connectivity Checks: "slc3:slc|Mem2IO:memory_subsystem"
- 31. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla3"
- 32. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla2"
- 33. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla1"
- 34. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa2"
- 35. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa1"
- 36. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa0"
- 37. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0"
- 38. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder"
- 39. Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:DR_MUX"
- 40. Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:SR1_MUX"
- 41. Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:SR2_MUX"
- 42. Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:ADDR1_MUX"
- 43. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:ADDR2_MUX"
- 44. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:PC_MUX"
- 45. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:BUS_MUX"
- 46. Port Connectivity Checks: "slc3:slc"
- 47. Post-Synthesis Netlist Statistics for Top Partition
- 48. Elapsed Time Per Partition
- 49. Analysis & Synthesis Messages
- 50. Analysis & Synthesis Suppressed Messages
+  8. State Machine - |slc3_testtop|slc3:slc|ISDU:state_controller|State
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: test_memory:mem
+ 13. Parameter Settings for User Entity Instance: test_memory:mem|memory_parser:parser
+ 14. Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R7"
+ 15. Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R6"
+ 16. Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R5"
+ 17. Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R4"
+ 18. Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R3"
+ 19. Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R2"
+ 20. Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R1"
+ 21. Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R0"
+ 22. Port Connectivity Checks: "slc3:slc|reg_file:rf"
+ 23. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla3"
+ 24. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla2"
+ 25. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla1"
+ 26. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa2"
+ 27. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa1"
+ 28. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa0"
+ 29. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0"
+ 30. Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder"
+ 31. Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:DR_MUX"
+ 32. Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:SR1_MUX"
+ 33. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:ADDR2_MUX"
+ 34. Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:PC_MUX"
+ 35. Post-Synthesis Netlist Statistics for Top Partition
+ 36. Elapsed Time Per Partition
+ 37. Analysis & Synthesis Messages
+ 38. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -81,18 +69,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Feb 28 16:57:51 2023       ;
+; Analysis & Synthesis Status        ; Successful - Wed Mar 01 19:50:16 2023       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab5                                        ;
-; Top-level Entity Name              ; slc3_sramtop                                ;
+; Top-level Entity Name              ; slc3_testtop                                ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 507                                         ;
-;     Total combinational functions  ; 489                                         ;
-;     Dedicated logic registers      ; 92                                          ;
-; Total registers                    ; 92                                          ;
-; Total pins                         ; 51                                          ;
+; Total logic elements               ; 583                                         ;
+;     Total combinational functions  ; 453                                         ;
+;     Dedicated logic registers      ; 224                                         ;
+; Total registers                    ; 224                                         ;
+; Total pins                         ; 382                                         ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 16,384                                      ;
+; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
 ; Total PLLs                         ; 0                                           ;
 ; UFM blocks                         ; 0                                           ;
@@ -106,7 +94,7 @@ refer to the applicable agreement for further details.
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                           ; 10M50DAF484C7G     ;                    ;
-; Top-level entity name                                            ; slc3_sramtop       ; lab5               ;
+; Top-level entity name                                            ; slc3_testtop       ; lab5               ;
 ; Family name                                                      ; MAX 10             ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -203,43 +191,33 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                           ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                       ; Library ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------+---------+
-; synchronizers.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv             ;         ;
-; SLC3_2.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv                    ;         ;
-; slc3.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv                      ;         ;
-; Mem2IO.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv                    ;         ;
-; ISDU.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv                      ;         ;
-; Instantiateram.sv                ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Instantiateram.sv            ;         ;
-; datapath.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv                  ;         ;
-; mux2_1_16.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv                 ;         ;
-; mux4_1_16.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv                 ;         ;
-; reg_16.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv                    ;         ;
-; HexDriver.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/HexDriver.sv                 ;         ;
-; output_files/slc3_sramtop.sv     ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv ;         ;
-; ram.v                            ; yes             ; User Wizard-Generated File   ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ram.v                        ;         ;
-; reg_3.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_3.sv                     ;         ;
-; reg_1.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_1.sv                     ;         ;
-; lookahead_adder.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv           ;         ;
-; fourbit_lookahead.sv             ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv         ;         ;
-; full_adder.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv                ;         ;
-; alu.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv                       ;         ;
-; reg_file.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_file.sv                  ;         ;
-; mux8_1_16.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv                 ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf              ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc       ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc                 ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc              ;         ;
-; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc              ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc               ;         ;
-; altrom.inc                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc                  ;         ;
-; altram.inc                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc                  ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc                ;         ;
-; db/altsyncram_hag1.tdf           ; yes             ; Auto-Generated Megafunction  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/db/altsyncram_hag1.tdf       ;         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                   ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                               ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
+; test_memory.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv       ;         ;
+; synchronizers.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv     ;         ;
+; slc3_testtop.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv      ;         ;
+; SLC3_2.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv            ;         ;
+; slc3.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv              ;         ;
+; memory_contents.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv   ;         ;
+; Mem2IO.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv            ;         ;
+; ISDU.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv              ;         ;
+; datapath.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv          ;         ;
+; mux2_1_16.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv         ;         ;
+; mux4_1_16.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv         ;         ;
+; reg_16.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv            ;         ;
+; HexDriver.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/HexDriver.sv         ;         ;
+; reg_3.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_3.sv             ;         ;
+; reg_1.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_1.sv             ;         ;
+; lookahead_adder.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv   ;         ;
+; fourbit_lookahead.sv             ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv ;         ;
+; full_adder.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv        ;         ;
+; alu.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv               ;         ;
+; reg_file.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_file.sv          ;         ;
+; mux8_1_16.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv         ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -247,136 +225,145 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 507       ;
+; Estimated Total logic elements              ; 583       ;
 ;                                             ;           ;
-; Total combinational functions               ; 489       ;
+; Total combinational functions               ; 453       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 349       ;
-;     -- 3 input functions                    ; 91        ;
-;     -- <=2 input functions                  ; 49        ;
+;     -- 4 input functions                    ; 296       ;
+;     -- 3 input functions                    ; 133       ;
+;     -- <=2 input functions                  ; 24        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 460       ;
-;     -- arithmetic mode                      ; 29        ;
+;     -- normal mode                          ; 423       ;
+;     -- arithmetic mode                      ; 30        ;
 ;                                             ;           ;
-; Total registers                             ; 92        ;
-;     -- Dedicated logic registers            ; 92        ;
+; Total registers                             ; 224       ;
+;     -- Dedicated logic registers            ; 224       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
-; I/O pins                                    ; 51        ;
-; Total memory bits                           ; 16384     ;
+; I/O pins                                    ; 382       ;
 ;                                             ;           ;
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; Clk~input ;
-; Maximum fan-out                             ; 108       ;
-; Total fan-out                               ; 2394      ;
-; Average fan-out                             ; 3.42      ;
+; Maximum fan-out                             ; 224       ;
+; Total fan-out                               ; 2961      ;
+; Average fan-out                             ; 2.05      ;
 +---------------------------------------------+-----------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                     ;
-+-------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------------------------------------------+-----------------+--------------+
-; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                   ; Entity Name     ; Library Name ;
-+-------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------------------------------------------+-----------------+--------------+
-; |slc3_sramtop                             ; 489 (52)            ; 92 (0)                    ; 16384       ; 0          ; 0            ; 0       ; 0         ; 51   ; 0            ; 0          ; |slc3_sramtop                                                                         ; slc3_sramtop    ; work         ;
-;    |Instantiateram:instaRam|              ; 321 (321)           ; 17 (17)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|Instantiateram:instaRam                                                 ; Instantiateram  ; work         ;
-;    |ram:ram0|                             ; 0 (0)               ; 0 (0)                     ; 16384       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|ram:ram0                                                                ; ram             ; work         ;
-;       |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 16384       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|ram:ram0|altsyncram:altsyncram_component                                ; altsyncram      ; work         ;
-;          |altsyncram_hag1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 16384       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|ram:ram0|altsyncram:altsyncram_component|altsyncram_hag1:auto_generated ; altsyncram_hag1 ; work         ;
-;    |slc3:slc|                             ; 116 (0)             ; 73 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc                                                                ; slc3            ; work         ;
-;       |HexDriver:hex_drivers[0]|          ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|HexDriver:hex_drivers[0]                                       ; HexDriver       ; work         ;
-;       |HexDriver:hex_drivers[1]|          ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|HexDriver:hex_drivers[1]                                       ; HexDriver       ; work         ;
-;       |HexDriver:hex_drivers[2]|          ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|HexDriver:hex_drivers[2]                                       ; HexDriver       ; work         ;
-;       |HexDriver:hex_drivers[3]|          ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|HexDriver:hex_drivers[3]                                       ; HexDriver       ; work         ;
-;       |ISDU:state_controller|             ; 10 (10)             ; 9 (9)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|ISDU:state_controller                                          ; ISDU            ; work         ;
-;       |Mem2IO:memory_subsystem|           ; 5 (5)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|Mem2IO:memory_subsystem                                        ; Mem2IO          ; work         ;
-;       |datapath:d0|                       ; 10 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|datapath:d0                                                    ; datapath        ; work         ;
-;          |mux4_1_16:BUS_MUX|              ; 10 (10)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|datapath:d0|mux4_1_16:BUS_MUX                                  ; mux4_1_16       ; work         ;
-;       |reg_16:_IR|                        ; 17 (17)             ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|reg_16:_IR                                                     ; reg_16          ; work         ;
-;       |reg_16:_MAR|                       ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|reg_16:_MAR                                                    ; reg_16          ; work         ;
-;       |reg_16:_MDR|                       ; 29 (29)             ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|reg_16:_MDR                                                    ; reg_16          ; work         ;
-;       |reg_16:_PC|                        ; 17 (17)             ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|slc3:slc|reg_16:_PC                                                     ; reg_16          ; work         ;
-;    |sync:button_sync[0]|                  ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|sync:button_sync[0]                                                     ; sync            ; work         ;
-;    |sync:button_sync[1]|                  ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_sramtop|sync:button_sync[1]                                                     ; sync            ; work         ;
-+-------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------------------------------------------+-----------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                   ;
++----------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------------------------------+-------------------+--------------+
+; Compilation Hierarchy Node             ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                  ; Entity Name       ; Library Name ;
++----------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------------------------------+-------------------+--------------+
+; |slc3_testtop                          ; 453 (1)             ; 224 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 382  ; 0            ; 0          ; |slc3_testtop                                                                                        ; slc3_testtop      ; work         ;
+;    |slc3:slc|                          ; 452 (0)             ; 222 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc                                                                               ; slc3              ; work         ;
+;       |ISDU:state_controller|          ; 66 (66)             ; 30 (30)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|ISDU:state_controller                                                         ; ISDU              ; work         ;
+;       |Mem2IO:memory_subsystem|        ; 15 (15)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|Mem2IO:memory_subsystem                                                       ; Mem2IO            ; work         ;
+;       |alu:_ALU|                       ; 29 (29)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|alu:_ALU                                                                      ; alu               ; work         ;
+;       |datapath:d0|                    ; 212 (52)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0                                                                   ; datapath          ; work         ;
+;          |lookahead_adder:_ADDR_Adder| ; 44 (6)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder                                       ; lookahead_adder   ; work         ;
+;             |fourbit_lookahead:cla0|   ; 11 (7)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0                ; fourbit_lookahead ; work         ;
+;                |full_adder:fa0|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa0 ; full_adder        ; work         ;
+;                |full_adder:fa1|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa1 ; full_adder        ; work         ;
+;                |full_adder:fa2|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa2 ; full_adder        ; work         ;
+;                |full_adder:fa3|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa3 ; full_adder        ; work         ;
+;             |fourbit_lookahead:cla1|   ; 11 (7)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla1                ; fourbit_lookahead ; work         ;
+;                |full_adder:fa0|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla1|full_adder:fa0 ; full_adder        ; work         ;
+;                |full_adder:fa1|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla1|full_adder:fa1 ; full_adder        ; work         ;
+;                |full_adder:fa2|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla1|full_adder:fa2 ; full_adder        ; work         ;
+;                |full_adder:fa3|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla1|full_adder:fa3 ; full_adder        ; work         ;
+;             |fourbit_lookahead:cla2|   ; 10 (6)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla2                ; fourbit_lookahead ; work         ;
+;                |full_adder:fa0|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla2|full_adder:fa0 ; full_adder        ; work         ;
+;                |full_adder:fa1|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla2|full_adder:fa1 ; full_adder        ; work         ;
+;                |full_adder:fa2|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla2|full_adder:fa2 ; full_adder        ; work         ;
+;                |full_adder:fa3|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla2|full_adder:fa3 ; full_adder        ; work         ;
+;             |fourbit_lookahead:cla3|   ; 6 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla3                ; fourbit_lookahead ; work         ;
+;                |full_adder:fa0|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla3|full_adder:fa0 ; full_adder        ; work         ;
+;                |full_adder:fa1|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla3|full_adder:fa1 ; full_adder        ; work         ;
+;                |full_adder:fa2|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla3|full_adder:fa2 ; full_adder        ; work         ;
+;                |full_adder:fa3|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla3|full_adder:fa3 ; full_adder        ; work         ;
+;          |mux2_1_16:ADDR1_MUX|         ; 16 (16)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|mux2_1_16:ADDR1_MUX                                               ; mux2_1_16         ; work         ;
+;          |mux2_1_16:SR1_MUX|           ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|mux2_1_16:SR1_MUX                                                 ; mux2_1_16         ; work         ;
+;          |mux2_1_16:SR2_MUX|           ; 16 (16)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|mux2_1_16:SR2_MUX                                                 ; mux2_1_16         ; work         ;
+;          |mux4_1_16:ADDR2_MUX|         ; 11 (11)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|mux4_1_16:ADDR2_MUX                                               ; mux4_1_16         ; work         ;
+;          |mux4_1_16:BUS_MUX|           ; 70 (70)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|datapath:d0|mux4_1_16:BUS_MUX                                                 ; mux4_1_16         ; work         ;
+;       |reg_16:_IR|                     ; 1 (1)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_16:_IR                                                                    ; reg_16            ; work         ;
+;       |reg_16:_MAR|                    ; 18 (18)             ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_16:_MAR                                                                   ; reg_16            ; work         ;
+;       |reg_16:_MDR|                    ; 19 (19)             ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_16:_MDR                                                                   ; reg_16            ; work         ;
+;       |reg_16:_PC|                     ; 2 (2)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_16:_PC                                                                    ; reg_16            ; work         ;
+;       |reg_file:rf|                    ; 90 (10)             ; 128 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_file:rf                                                                   ; reg_file          ; work         ;
+;          |mux8_1_16:SR1OUT|            ; 80 (80)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_file:rf|mux8_1_16:SR1OUT                                                  ; mux8_1_16         ; work         ;
+;          |reg_16:_R0|                  ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_file:rf|reg_16:_R0                                                        ; reg_16            ; work         ;
+;          |reg_16:_R1|                  ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_file:rf|reg_16:_R1                                                        ; reg_16            ; work         ;
+;          |reg_16:_R2|                  ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_file:rf|reg_16:_R2                                                        ; reg_16            ; work         ;
+;          |reg_16:_R3|                  ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_file:rf|reg_16:_R3                                                        ; reg_16            ; work         ;
+;          |reg_16:_R4|                  ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_file:rf|reg_16:_R4                                                        ; reg_16            ; work         ;
+;          |reg_16:_R5|                  ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_file:rf|reg_16:_R5                                                        ; reg_16            ; work         ;
+;          |reg_16:_R6|                  ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_file:rf|reg_16:_R6                                                        ; reg_16            ; work         ;
+;          |reg_16:_R7|                  ; 0 (0)               ; 16 (16)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|slc3:slc|reg_file:rf|reg_16:_R7                                                        ; reg_16            ; work         ;
+;    |sync:button_sync[0]|               ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|sync:button_sync[0]                                                                    ; sync              ; work         ;
+;    |sync:button_sync[1]|               ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |slc3_testtop|sync:button_sync[1]                                                                    ; sync              ; work         ;
++----------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------------------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                   ;
-+------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+------+
-; Name                                                                               ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF  ;
-+------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+------+
-; ram:ram0|altsyncram:altsyncram_component|altsyncram_hag1:auto_generated|ALTSYNCRAM ; M9K  ; Single Port ; 1024         ; 16           ; --           ; --           ; 16384 ; None ;
-+------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+------+
-
-
-+----------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                    ;
-+--------+--------------+---------+--------------+--------------+------------------------+-----------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance        ; IP Include File ;
-+--------+--------------+---------+--------------+--------------+------------------------+-----------------+
-; Altera ; RAM: 1-PORT  ; 18.1    ; N/A          ; N/A          ; |slc3_sramtop|ram:ram0 ; ram.v           ;
-+--------+--------------+---------+--------------+--------------+------------------------+-----------------+
-
-
 Encoding Type:  One-Hot
-+-------------------------------------------------------------+
-; State Machine - |slc3_sramtop|Instantiateram:instaRam|state ;
-+-----------------+------------+------------+-----------------+
-; Name            ; state.idle ; state.done ; state.mem_write ;
-+-----------------+------------+------------+-----------------+
-; state.mem_write ; 0          ; 0          ; 0               ;
-; state.idle      ; 1          ; 0          ; 1               ;
-; state.done      ; 0          ; 1          ; 1               ;
-+-----------------+------------+------------+-----------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |slc3_testtop|slc3:slc|ISDU:state_controller|State                                                                                                                                                                                                                                                                                                                                                                                                     ;
++----------------+--------------+--------------+------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+------------+------------+------------+------------+------------+--------------+--------------+--------------+--------------+------------+----------------+----------------+--------------+
+; Name           ; State.S_00_2 ; State.S_00_1 ; State.S_12 ; State.S_04_2 ; State.S_04_1 ; State.S_07_6 ; State.S_07_5 ; State.S_07_4 ; State.S_07_3 ; State.S_07_2 ; State.S_07_1 ; State.S_06_6 ; State.S_06_5 ; State.S_06_4 ; State.S_06_3 ; State.S_06_2 ; State.S_06_1 ; State.S_09 ; State.S_05 ; State.S_01 ; State.S_32 ; State.S_35 ; State.S_33_4 ; State.S_33_3 ; State.S_33_2 ; State.S_33_1 ; State.S_18 ; State.PauseIR2 ; State.PauseIR1 ; State.Halted ;
++----------------+--------------+--------------+------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+------------+------------+------------+------------+------------+--------------+--------------+--------------+--------------+------------+----------------+----------------+--------------+
+; State.Halted   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 0            ;
+; State.PauseIR1 ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 1              ; 1            ;
+; State.PauseIR2 ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 1              ; 0              ; 1            ;
+; State.S_18     ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 1          ; 0              ; 0              ; 1            ;
+; State.S_33_1   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 1            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_33_2   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 1            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_33_3   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 1            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_33_4   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 1            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_35     ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 1          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_32     ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 1          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_01     ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 1          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_05     ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 1          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_09     ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 1          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_06_1   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 1            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_06_2   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 1            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_06_3   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 1            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_06_4   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 1            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_06_5   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 1            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_06_6   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 1            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_07_1   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 1            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_07_2   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 1            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_07_3   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 1            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_07_4   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 1            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_07_5   ; 0            ; 0            ; 0          ; 0            ; 0            ; 0            ; 1            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_07_6   ; 0            ; 0            ; 0          ; 0            ; 0            ; 1            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_04_1   ; 0            ; 0            ; 0          ; 0            ; 1            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_04_2   ; 0            ; 0            ; 0          ; 1            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_12     ; 0            ; 0            ; 1          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_00_1   ; 0            ; 1            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_00_2   ; 1            ; 0            ; 0          ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
++----------------+--------------+--------------+------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+------------+------------+------------+------------+------------+--------------+--------------+--------------+--------------+------------+----------------+----------------+--------------+
 
 
-Encoding Type:  One-Hot
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |slc3_sramtop|slc3:slc|ISDU:state_controller|State                                                                                                              ;
-+----------------+------------+------------+------------+--------------+--------------+--------------+--------------+------------+----------------+----------------+--------------+
-; Name           ; State.S_01 ; State.S_32 ; State.S_35 ; State.S_33_4 ; State.S_33_3 ; State.S_33_2 ; State.S_33_1 ; State.S_18 ; State.PauseIR2 ; State.PauseIR1 ; State.Halted ;
-+----------------+------------+------------+------------+--------------+--------------+--------------+--------------+------------+----------------+----------------+--------------+
-; State.Halted   ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 0            ;
-; State.PauseIR1 ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 1              ; 1            ;
-; State.PauseIR2 ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 1              ; 0              ; 1            ;
-; State.S_18     ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 1          ; 0              ; 0              ; 1            ;
-; State.S_33_1   ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 1            ; 0          ; 0              ; 0              ; 1            ;
-; State.S_33_2   ; 0          ; 0          ; 0          ; 0            ; 0            ; 1            ; 0            ; 0          ; 0              ; 0              ; 1            ;
-; State.S_33_3   ; 0          ; 0          ; 0          ; 0            ; 1            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
-; State.S_33_4   ; 0          ; 0          ; 0          ; 1            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
-; State.S_35     ; 0          ; 0          ; 1          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
-; State.S_32     ; 0          ; 1          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
-; State.S_01     ; 1          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
-+----------------+------------+------------+------------+--------------+--------------+--------------+--------------+------------+----------------+----------------+--------------+
-
-
-+------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                             ;
-+--------------------------------------------------+---------------------------------------------+
-; Register name                                    ; Reason for Removal                          ;
-+--------------------------------------------------+---------------------------------------------+
-; slc3:slc|reg_file:comb_20|reg_16:_R0|Data_Out[0] ; Stuck at GND due to stuck port clock_enable ;
-; slc3:slc|reg_file:comb_20|reg_16:_R1|Data_Out[0] ; Stuck at GND due to stuck port clock_enable ;
-; slc3:slc|reg_file:comb_20|reg_16:_R2|Data_Out[0] ; Stuck at GND due to stuck port clock_enable ;
-; slc3:slc|reg_file:comb_20|reg_16:_R3|Data_Out[0] ; Stuck at GND due to stuck port clock_enable ;
-; slc3:slc|reg_file:comb_20|reg_16:_R4|Data_Out[0] ; Stuck at GND due to stuck port clock_enable ;
-; slc3:slc|reg_file:comb_20|reg_16:_R5|Data_Out[0] ; Stuck at GND due to stuck port clock_enable ;
-; slc3:slc|reg_file:comb_20|reg_16:_R6|Data_Out[0] ; Stuck at GND due to stuck port clock_enable ;
-; slc3:slc|reg_file:comb_20|reg_16:_R7|Data_Out[0] ; Stuck at GND due to stuck port clock_enable ;
-; Instantiateram:instaRam|state.idle               ; Lost fanout                                 ;
-; Instantiateram:instaRam|state.done               ; Lost fanout                                 ;
-; slc3:slc|ISDU:state_controller|State.S_32        ; Lost fanout                                 ;
-; slc3:slc|ISDU:state_controller|State.S_01        ; Lost fanout                                 ;
-; slc3:slc|ISDU:state_controller|State~2           ; Lost fanout                                 ;
-; slc3:slc|ISDU:state_controller|State~3           ; Lost fanout                                 ;
-; slc3:slc|ISDU:state_controller|State~4           ; Lost fanout                                 ;
-; slc3:slc|ISDU:state_controller|State~5           ; Lost fanout                                 ;
-; Total Number of Removed Registers = 16           ;                                             ;
-+--------------------------------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                        ;
++--------------------------------------------------+----------------------------------------+
+; Register name                                    ; Reason for Removal                     ;
++--------------------------------------------------+----------------------------------------+
+; slc3:slc|Mem2IO:memory_subsystem|hex_data[0..15] ; Stuck at GND due to stuck port data_in ;
+; slc3:slc|ISDU:state_controller|State~2           ; Lost fanout                            ;
+; slc3:slc|ISDU:state_controller|State~3           ; Lost fanout                            ;
+; slc3:slc|ISDU:state_controller|State~4           ; Lost fanout                            ;
+; slc3:slc|ISDU:state_controller|State~5           ; Lost fanout                            ;
+; slc3:slc|ISDU:state_controller|State~6           ; Lost fanout                            ;
+; slc3:slc|ISDU:state_controller|State~7           ; Lost fanout                            ;
+; slc3:slc|ISDU:state_controller|State~8           ; Lost fanout                            ;
+; slc3:slc|ISDU:state_controller|State~9           ; Lost fanout                            ;
+; Total Number of Removed Registers = 24           ;                                        ;
++--------------------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -384,12 +371,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 92    ;
-; Number of registers using Synchronous Clear  ; 26    ;
-; Number of registers using Synchronous Load   ; 10    ;
-; Number of registers using Asynchronous Clear ; 17    ;
+; Total registers                              ; 224   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 79    ;
+; Number of registers using Clock Enable       ; 192   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -399,246 +386,116 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------+
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |slc3_sramtop|slc3:slc|reg_16:_PC|Data_Out[12]             ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |slc3_sramtop|slc3:slc|reg_16:_IR|Data_Out[3]              ;
-; 5:1                ; 6 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; Yes        ; |slc3_sramtop|slc3:slc|reg_16:_MDR|Data_Out[14]            ;
-; 5:1                ; 10 bits   ; 30 LEs        ; 20 LEs               ; 10 LEs                 ; Yes        ; |slc3_sramtop|slc3:slc|reg_16:_MDR|Data_Out[0]             ;
-; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |slc3_sramtop|slc3:slc|datapath:d0|mux4_1_16:BUS_MUX|Mux0  ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |slc3_sramtop|slc3:slc|datapath:d0|mux4_1_16:BUS_MUX|Mux12 ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |slc3_sramtop|slc3:slc|ISDU:state_controller|State         ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |slc3_testtop|slc3:slc|reg_16:_IR|Data_Out[2]              ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |slc3_testtop|slc3:slc|reg_16:_MAR|Data_Out[5]             ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |slc3_testtop|slc3:slc|reg_16:_MDR|Data_Out[15]            ;
+; 4:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; Yes        ; |slc3_testtop|slc3:slc|reg_16:_MDR|Data_Out[0]             ;
+; 6:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |slc3_testtop|slc3:slc|reg_16:_PC|Data_Out[7]              ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |slc3_testtop|slc3:slc|reg_file:rf|mux8_1_16:SR1OUT|Mux13  ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 64 LEs               ; 16 LEs                 ; No         ; |slc3_testtop|slc3:slc|datapath:d0|mux4_1_16:BUS_MUX|Mux11 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------+
-; Source assignments for ram:ram0|altsyncram:altsyncram_component|altsyncram_hag1:auto_generated ;
-+---------------------------------+--------------------+------+----------------------------------+
-; Assignment                      ; Value              ; From ; To                               ;
-+---------------------------------+--------------------+------+----------------------------------+
-; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                ;
-+---------------------------------+--------------------+------+----------------------------------+
-
-
-+---------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ram:ram0|altsyncram:altsyncram_component ;
-+------------------------------------+----------------------+---------------------------+
-; Parameter Name                     ; Value                ; Type                      ;
-+------------------------------------+----------------------+---------------------------+
-; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                   ;
-; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                ;
-; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY              ;
-; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE              ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE            ;
-; WIDTH_BYTEENA                      ; 1                    ; Untyped                   ;
-; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                   ;
-; WIDTH_A                            ; 16                   ; Signed Integer            ;
-; WIDTHAD_A                          ; 10                   ; Signed Integer            ;
-; NUMWORDS_A                         ; 1024                 ; Signed Integer            ;
-; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                   ;
-; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                   ;
-; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                   ;
-; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                   ;
-; INDATA_ACLR_A                      ; NONE                 ; Untyped                   ;
-; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                   ;
-; WIDTH_B                            ; 1                    ; Untyped                   ;
-; WIDTHAD_B                          ; 1                    ; Untyped                   ;
-; NUMWORDS_B                         ; 1                    ; Untyped                   ;
-; INDATA_REG_B                       ; CLOCK1               ; Untyped                   ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                   ;
-; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                   ;
-; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                   ;
-; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                   ;
-; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                   ;
-; INDATA_ACLR_B                      ; NONE                 ; Untyped                   ;
-; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                   ;
-; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                   ;
-; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                   ;
-; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                   ;
-; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                   ;
-; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer            ;
-; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                   ;
-; RAM_BLOCK_TYPE                     ; M9K                  ; Untyped                   ;
-; BYTE_SIZE                          ; 8                    ; Untyped                   ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                   ;
-; READ_DURING_WRITE_MODE_PORT_A      ; DONT_CARE            ; Untyped                   ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                   ;
-; INIT_FILE                          ; UNUSED               ; Untyped                   ;
-; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                   ;
-; MAXIMUM_DEPTH                      ; 0                    ; Untyped                   ;
-; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                   ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                   ;
-; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                   ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                   ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                   ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                   ;
-; ENABLE_ECC                         ; FALSE                ; Untyped                   ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                   ;
-; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                   ;
-; DEVICE_FAMILY                      ; MAX 10               ; Untyped                   ;
-; CBXI_PARAMETER                     ; altsyncram_hag1      ; Untyped                   ;
-+------------------------------------+----------------------+---------------------------+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: test_memory:mem ;
++----------------+-------+-------------------------------------+
+; Parameter Name ; Value ; Type                                ;
++----------------+-------+-------------------------------------+
+; size           ; 256   ; Signed Integer                      ;
+; init_external  ; 0     ; Signed Integer                      ;
++----------------+-------+-------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------------------------------+
-; altsyncram Parameter Settings by Entity Instance                                     ;
-+-------------------------------------------+------------------------------------------+
-; Name                                      ; Value                                    ;
-+-------------------------------------------+------------------------------------------+
-; Number of entity instances                ; 1                                        ;
-; Entity Instance                           ; ram:ram0|altsyncram:altsyncram_component ;
-;     -- OPERATION_MODE                     ; SINGLE_PORT                              ;
-;     -- WIDTH_A                            ; 16                                       ;
-;     -- NUMWORDS_A                         ; 1024                                     ;
-;     -- OUTDATA_REG_A                      ; CLOCK0                                   ;
-;     -- WIDTH_B                            ; 1                                        ;
-;     -- NUMWORDS_B                         ; 1                                        ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                                   ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                             ;
-;     -- RAM_BLOCK_TYPE                     ; M9K                                      ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                ;
-+-------------------------------------------+------------------------------------------+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: test_memory:mem|memory_parser:parser ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; size           ; 256   ; Signed Integer                                           ;
++----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "Instantiateram:instaRam"                                                                    ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port         ; Type   ; Severity ; Details                                                                             ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; ADDR[15..10] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R7" ;
++-------+-------+----------+----------------------------------+
+; Port  ; Type  ; Severity ; Details                          ;
++-------+-------+----------+----------------------------------+
+; Reset ; Input ; Info     ; Explicitly unconnected           ;
++-------+-------+----------+----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20|mux8_1_16:SR2OUT"                                                                                                   ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                                                                                        ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
-; A_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "A_In[15..1]" will be connected to GND. ;
-; B_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "B_In[15..1]" will be connected to GND. ;
-; C_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "C_In[15..1]" will be connected to GND. ;
-; D_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "D_In[15..1]" will be connected to GND. ;
-; E_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "E_In[15..1]" will be connected to GND. ;
-; F_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "F_In[15..1]" will be connected to GND. ;
-; G_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "G_In[15..1]" will be connected to GND. ;
-; H_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "H_In[15..1]" will be connected to GND. ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R6" ;
++-------+-------+----------+----------------------------------+
+; Port  ; Type  ; Severity ; Details                          ;
++-------+-------+----------+----------------------------------+
+; Reset ; Input ; Info     ; Explicitly unconnected           ;
++-------+-------+----------+----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20|mux8_1_16:SR1OUT"                                                                                                   ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                                                                                        ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
-; A_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "A_In[15..1]" will be connected to GND. ;
-; B_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "B_In[15..1]" will be connected to GND. ;
-; C_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "C_In[15..1]" will be connected to GND. ;
-; D_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "D_In[15..1]" will be connected to GND. ;
-; E_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "E_In[15..1]" will be connected to GND. ;
-; F_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "F_In[15..1]" will be connected to GND. ;
-; G_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "G_In[15..1]" will be connected to GND. ;
-; H_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "H_In[15..1]" will be connected to GND. ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R5" ;
++-------+-------+----------+----------------------------------+
+; Port  ; Type  ; Severity ; Details                          ;
++-------+-------+----------+----------------------------------+
+; Reset ; Input ; Info     ; Explicitly unconnected           ;
++-------+-------+----------+----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R7"                                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                                                                       ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Reset    ; Input  ; Info     ; Explicitly unconnected                                                                                                        ;
-; Data_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Data_Out[15..1]" have no fanouts ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R4" ;
++-------+-------+----------+----------------------------------+
+; Port  ; Type  ; Severity ; Details                          ;
++-------+-------+----------+----------------------------------+
+; Reset ; Input ; Info     ; Explicitly unconnected           ;
++-------+-------+----------+----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R6"                                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                                                                       ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Reset    ; Input  ; Info     ; Explicitly unconnected                                                                                                        ;
-; Data_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Data_Out[15..1]" have no fanouts ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R3" ;
++-------+-------+----------+----------------------------------+
+; Port  ; Type  ; Severity ; Details                          ;
++-------+-------+----------+----------------------------------+
+; Reset ; Input ; Info     ; Explicitly unconnected           ;
++-------+-------+----------+----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R5"                                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                                                                       ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Reset    ; Input  ; Info     ; Explicitly unconnected                                                                                                        ;
-; Data_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Data_Out[15..1]" have no fanouts ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R2" ;
++-------+-------+----------+----------------------------------+
+; Port  ; Type  ; Severity ; Details                          ;
++-------+-------+----------+----------------------------------+
+; Reset ; Input ; Info     ; Explicitly unconnected           ;
++-------+-------+----------+----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R4"                                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                                                                       ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Reset    ; Input  ; Info     ; Explicitly unconnected                                                                                                        ;
-; Data_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Data_Out[15..1]" have no fanouts ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R1" ;
++-------+-------+----------+----------------------------------+
+; Port  ; Type  ; Severity ; Details                          ;
++-------+-------+----------+----------------------------------+
+; Reset ; Input ; Info     ; Explicitly unconnected           ;
++-------+-------+----------+----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R3"                                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                                                                       ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Reset    ; Input  ; Info     ; Explicitly unconnected                                                                                                        ;
-; Data_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Data_Out[15..1]" have no fanouts ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|reg_file:rf|reg_16:_R0" ;
++-------+-------+----------+----------------------------------+
+; Port  ; Type  ; Severity ; Details                          ;
++-------+-------+----------+----------------------------------+
+; Reset ; Input ; Info     ; Explicitly unconnected           ;
++-------+-------+----------+----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R2"                                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                                                                       ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Reset    ; Input  ; Info     ; Explicitly unconnected                                                                                                        ;
-; Data_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Data_Out[15..1]" have no fanouts ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R1"                                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                                                                       ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Reset    ; Input  ; Info     ; Explicitly unconnected                                                                                                        ;
-; Data_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Data_Out[15..1]" have no fanouts ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20|reg_16:_R0"                                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                                                                       ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Reset    ; Input  ; Info     ; Explicitly unconnected                                                                                                        ;
-; Data_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Data_Out[15..1]" have no fanouts ;
-+----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|reg_file:comb_20" ;
-+------+-------+----------+-----------------------------+
-; Port ; Type  ; Severity ; Details                     ;
-+------+-------+----------+-----------------------------+
-; SR2  ; Input ; Info     ; Stuck at GND                ;
-+------+-------+----------+-----------------------------+
-
-
-+--------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|Mem2IO:memory_subsystem" ;
-+------+--------+----------+-----------------------------------+
-; Port ; Type   ; Severity ; Details                           ;
-+------+--------+----------+-----------------------------------+
-; HEX0 ; Output ; Info     ; Explicitly unconnected            ;
-; HEX1 ; Output ; Info     ; Explicitly unconnected            ;
-; HEX2 ; Output ; Info     ; Explicitly unconnected            ;
-; HEX3 ; Output ; Info     ; Explicitly unconnected            ;
-+------+--------+----------+-----------------------------------+
++--------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|reg_file:rf" ;
++------+-------+----------+------------------------+
+; Port ; Type  ; Severity ; Details                ;
++------+-------+----------+------------------------+
+; SR2  ; Input ; Info     ; Stuck at GND           ;
++------+-------+----------+------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------+
@@ -705,17 +562,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder"                                                                                           ;
-+------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                                                     ;
-+------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
-; A    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "A[15..1]" will be connected to GND. ;
-; B    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "B[15..1]" will be connected to GND. ;
-; cin  ; Input  ; Info     ; Stuck at GND                                                                                                                                ;
-; S    ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "S[15..1]" have no fanouts                      ;
-; cout ; Output ; Info     ; Explicitly unconnected                                                                                                                      ;
-+------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder" ;
++------+--------+----------+---------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                           ;
++------+--------+----------+---------------------------------------------------+
+; cin  ; Input  ; Info     ; Stuck at GND                                      ;
+; cout ; Output ; Info     ; Explicitly unconnected                            ;
++------+--------+----------+---------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -741,65 +595,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:SR2_MUX" ;
-+------+-------+----------+------------------------------------------+
-; Port ; Type  ; Severity ; Details                                  ;
-+------+-------+----------+------------------------------------------+
-; A_In ; Input ; Info     ; Stuck at GND                             ;
-+------+-------+----------+------------------------------------------+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:ADDR2_MUX" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; A_In ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|datapath:d0|mux2_1_16:ADDR1_MUX"                                                                                   ;
-+-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type   ; Severity ; Details                                                                                                                    ;
-+-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
-; B_In  ; Input  ; Info     ; Stuck at GND                                                                                                               ;
-; Q_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Q_Out[15..1]" have no fanouts ;
-+-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:ADDR2_MUX"                                                                                   ;
-+-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type   ; Severity ; Details                                                                                                                    ;
-+-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
-; A_In  ; Input  ; Info     ; Stuck at GND                                                                                                               ;
-; Q_Out ; Output ; Warning  ; Output or bidir port (16 bits) is wider than the port expression (1 bits) it drives; bit(s) "Q_Out[15..1]" have no fanouts ;
-+-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:PC_MUX"                                                                                                        ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                                                                                        ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
-; B_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "B_In[15..1]" will be connected to GND. ;
-; D_In ; Input ; Info     ; Stuck at GND                                                                                                                                   ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:BUS_MUX"                                                                                                       ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                                                                                        ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
-; C_In ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "C_In[15..1]" will be connected to GND. ;
-+------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:slc"                                                                                   ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port         ; Type   ; Severity ; Details                                                                             ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; ADDR[15..10] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; tb_MAR       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; tb_PC        ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; tb_MDR       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; tb_IR        ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
++-------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:slc|datapath:d0|mux4_1_16:PC_MUX" ;
++------+-------+----------+-----------------------------------------+
+; Port ; Type  ; Severity ; Details                                 ;
++------+-------+----------+-----------------------------------------+
+; D_In ; Input ; Info     ; Stuck at GND                            ;
++------+-------+----------+-----------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -807,28 +618,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 51                          ;
-; cycloneiii_ff         ; 92                          ;
-;     CLR               ; 2                           ;
-;     ENA               ; 38                          ;
-;     ENA CLR           ; 15                          ;
-;     ENA SCLR          ; 16                          ;
-;     ENA SCLR SLD      ; 10                          ;
-;     plain             ; 11                          ;
-; cycloneiii_lcell_comb ; 494                         ;
-;     arith             ; 29                          ;
-;         2 data inputs ; 28                          ;
-;         3 data inputs ; 1                           ;
-;     normal            ; 465                         ;
-;         0 data inputs ; 1                           ;
-;         1 data inputs ; 6                           ;
-;         2 data inputs ; 19                          ;
-;         3 data inputs ; 90                          ;
-;         4 data inputs ; 349                         ;
-; cycloneiii_ram_block  ; 16                          ;
+; boundary_port         ; 382                         ;
+; cycloneiii_ff         ; 224                         ;
+;     ENA               ; 192                         ;
+;     plain             ; 32                          ;
+; cycloneiii_lcell_comb ; 463                         ;
+;     arith             ; 30                          ;
+;         2 data inputs ; 15                          ;
+;         3 data inputs ; 15                          ;
+;     normal            ; 433                         ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 9                           ;
+;         2 data inputs ; 8                           ;
+;         3 data inputs ; 118                         ;
+;         4 data inputs ; 296                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 12.00                       ;
-; Average LUT depth     ; 6.28                        ;
+; Max LUT depth         ; 15.00                       ;
+; Average LUT depth     ; 8.97                        ;
 +-----------------------+-----------------------------+
 
 
@@ -837,7 +643,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -847,7 +653,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Feb 28 16:57:42 2023
+    Info: Processing started: Wed Mar 01 19:50:07 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab5 -c lab5
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -867,8 +673,9 @@ Info (12021): Found 1 design units, including 1 entities, in source file memory_
     Info (12023): Found entity 1: memory_parser File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv Line: 19
 Info (12021): Found 1 design units, including 1 entities, in source file mem2io.sv
     Info (12023): Found entity 1: Mem2IO File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv Line: 16
+Warning (10229): Verilog HDL Expression warning at ISDU.sv(374): truncated literal to match 1 bits File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv Line: 374
 Info (12021): Found 1 design units, including 1 entities, in source file isdu.sv
-    Info (12023): Found entity 1: ISDU File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv Line: 19
+    Info (12023): Found entity 1: ISDU File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file instantiateram.sv
     Info (12023): Found entity 1: Instantiateram File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Instantiateram.sv Line: 18
 Info (12021): Found 1 design units, including 1 entities, in source file datapath.sv
@@ -883,8 +690,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file slc3tes
     Info (12023): Found entity 1: slc3Test File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file hexdriver.sv
     Info (12023): Found entity 1: HexDriver File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/HexDriver.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file output_files/slc3_sramtop.sv
-    Info (12023): Found entity 1: slc3_sramtop File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file ram.v
     Info (12023): Found entity 1: ram File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ram.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file reg_3.sv
@@ -903,83 +708,106 @@ Info (12021): Found 1 design units, including 1 entities, in source file reg_fil
     Info (12023): Found entity 1: reg_file File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_file.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux8_1_16.sv
     Info (12023): Found entity 1: mux8_1_16 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at slc3.sv(95): created implicit net for "BEN_In" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 95
-Warning (10236): Verilog HDL Implicit Net warning at datapath.sv(32): created implicit net for "ADDR_Adder" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 32
-Warning (10236): Verilog HDL Implicit Net warning at datapath.sv(36): created implicit net for "ADDR2" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 36
-Warning (10236): Verilog HDL Implicit Net warning at datapath.sv(37): created implicit net for "ADDR1" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 37
-Critical Warning (10846): Verilog HDL Instantiation warning at slc3.sv(101): instance has no name File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 101
-Info (12127): Elaborating entity "slc3_sramtop" for the top level hierarchy
-Info (12128): Elaborating entity "sync" for hierarchy "sync:button_sync[0]" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 16
-Info (12128): Elaborating entity "slc3" for hierarchy "slc3:slc" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 63
-Warning (10030): Net "SR2" at slc3.sv(55) has no driver or initial value, using a default initial value '0' File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 55
+Warning (10236): Verilog HDL Implicit Net warning at slc3.sv(101): created implicit net for "BEN_In" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 101
+Info (12127): Elaborating entity "slc3_testtop" for the top level hierarchy
+Info (12128): Elaborating entity "sync" for hierarchy "sync:button_sync[0]" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 26
+Info (12128): Elaborating entity "slc3" for hierarchy "slc3:slc" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 42
+Warning (10030): Net "SR2" at slc3.sv(62) has no driver or initial value, using a default initial value '0' File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 62
 Warning (10034): Output port "LED" at slc3.sv(23) has no driver File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 23
-Info (12128): Elaborating entity "HexDriver" for hierarchy "slc3:slc|HexDriver:hex_drivers[0]" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 40
-Info (12128): Elaborating entity "datapath" for hierarchy "slc3:slc|datapath:d0" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 69
-Info (12128): Elaborating entity "mux4_1_16" for hierarchy "slc3:slc|datapath:d0|mux4_1_16:BUS_MUX" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 32
-Info (12128): Elaborating entity "mux2_1_16" for hierarchy "slc3:slc|datapath:d0|mux2_1_16:MDR_MUX" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 35
-Info (12128): Elaborating entity "lookahead_adder" for hierarchy "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 42
+Info (12128): Elaborating entity "HexDriver" for hierarchy "slc3:slc|HexDriver:hex_drivers[0]" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 45
+Info (12128): Elaborating entity "datapath" for hierarchy "slc3:slc|datapath:d0" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 76
+Info (12128): Elaborating entity "mux4_1_16" for hierarchy "slc3:slc|datapath:d0|mux4_1_16:BUS_MUX" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 39
+Info (12128): Elaborating entity "mux2_1_16" for hierarchy "slc3:slc|datapath:d0|mux2_1_16:MDR_MUX" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 42
+Info (12128): Elaborating entity "lookahead_adder" for hierarchy "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv Line: 49
 Info (12128): Elaborating entity "fourbit_lookahead" for hierarchy "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv Line: 25
 Info (12128): Elaborating entity "full_adder" for hierarchy "slc3:slc|datapath:d0|lookahead_adder:_ADDR_Adder|fourbit_lookahead:cla0|full_adder:fa0" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv Line: 34
-Info (12128): Elaborating entity "Mem2IO" for hierarchy "slc3:slc|Mem2IO:memory_subsystem" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 79
-Info (12128): Elaborating entity "ISDU" for hierarchy "slc3:slc|ISDU:state_controller" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 86
-Info (12128): Elaborating entity "reg_16" for hierarchy "slc3:slc|reg_16:_MAR" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 90
-Info (12128): Elaborating entity "reg_3" for hierarchy "slc3:slc|reg_3:_CC" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 94
-Info (12128): Elaborating entity "reg_1" for hierarchy "slc3:slc|reg_1:_BEN" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 95
-Info (12128): Elaborating entity "alu" for hierarchy "slc3:slc|alu:_ALU" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 98
-Info (12128): Elaborating entity "reg_file" for hierarchy "slc3:slc|reg_file:comb_20" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 101
-Info (12128): Elaborating entity "mux8_1_16" for hierarchy "slc3:slc|reg_file:comb_20|mux8_1_16:SR1OUT" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_file.sv Line: 20
-Info (12128): Elaborating entity "Instantiateram" for hierarchy "Instantiateram:instaRam" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 65
-Warning (10230): Verilog HDL assignment warning at Instantiateram.sv(51): truncated value with size 32 to match size of target (16) File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Instantiateram.sv Line: 51
-Warning (10230): Verilog HDL assignment warning at SLC3_2.sv(119): truncated value with size 32 to match size of target (5) File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv Line: 119
-Info (12128): Elaborating entity "ram" for hierarchy "ram:ram0" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 68
-Info (12128): Elaborating entity "altsyncram" for hierarchy "ram:ram0|altsyncram:altsyncram_component" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ram.v Line: 88
-Info (12130): Elaborated megafunction instantiation "ram:ram0|altsyncram:altsyncram_component" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ram.v Line: 88
-Info (12133): Instantiated megafunction "ram:ram0|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ram.v Line: 88
-    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
-    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
-    Info (12134): Parameter "intended_device_family" = "MAX 10"
-    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
-    Info (12134): Parameter "lpm_type" = "altsyncram"
-    Info (12134): Parameter "numwords_a" = "1024"
-    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
-    Info (12134): Parameter "outdata_aclr_a" = "NONE"
-    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
-    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
-    Info (12134): Parameter "ram_block_type" = "M9K"
-    Info (12134): Parameter "read_during_write_mode_port_a" = "DONT_CARE"
-    Info (12134): Parameter "widthad_a" = "10"
-    Info (12134): Parameter "width_a" = "16"
-    Info (12134): Parameter "width_byteena_a" = "1"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_hag1.tdf
-    Info (12023): Found entity 1: altsyncram_hag1 File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/db/altsyncram_hag1.tdf Line: 27
-Info (12128): Elaborating entity "altsyncram_hag1" for hierarchy "ram:ram0|altsyncram:altsyncram_component|altsyncram_hag1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Warning (12241): 23 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (12128): Elaborating entity "Mem2IO" for hierarchy "slc3:slc|Mem2IO:memory_subsystem" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 85
+Info (12128): Elaborating entity "ISDU" for hierarchy "slc3:slc|ISDU:state_controller" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 92
+Info (12128): Elaborating entity "reg_16" for hierarchy "slc3:slc|reg_16:_MAR" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 96
+Info (12128): Elaborating entity "reg_3" for hierarchy "slc3:slc|reg_3:_CC" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 100
+Info (12128): Elaborating entity "reg_1" for hierarchy "slc3:slc|reg_1:_BEN" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 101
+Info (12128): Elaborating entity "alu" for hierarchy "slc3:slc|alu:_ALU" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 104
+Info (12128): Elaborating entity "reg_file" for hierarchy "slc3:slc|reg_file:rf" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv Line: 107
+Info (12128): Elaborating entity "mux8_1_16" for hierarchy "slc3:slc|reg_file:rf|mux8_1_16:SR1OUT" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_file.sv Line: 21
+Info (12128): Elaborating entity "test_memory" for hierarchy "test_memory:mem" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 43
+Warning (10034): Output port "readout" at test_memory.sv(32) has no driver File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv Line: 32
+Info (12128): Elaborating entity "memory_parser" for hierarchy "test_memory:mem|memory_parser:parser" File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv Line: 71
+Warning (12241): 8 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LED[0]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
-    Warning (13410): Pin "LED[1]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
-    Warning (13410): Pin "LED[2]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
-    Warning (13410): Pin "LED[3]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
-    Warning (13410): Pin "LED[4]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
-    Warning (13410): Pin "LED[5]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
-    Warning (13410): Pin "LED[6]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
-    Warning (13410): Pin "LED[7]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
-    Warning (13410): Pin "LED[8]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
-    Warning (13410): Pin "LED[9]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/slc3_sramtop.sv Line: 8
+    Warning (13410): Pin "LED[0]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 7
+    Warning (13410): Pin "LED[1]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 7
+    Warning (13410): Pin "LED[2]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 7
+    Warning (13410): Pin "LED[3]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 7
+    Warning (13410): Pin "LED[4]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 7
+    Warning (13410): Pin "LED[5]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 7
+    Warning (13410): Pin "LED[6]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 7
+    Warning (13410): Pin "LED[7]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 7
+    Warning (13410): Pin "LED[8]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 7
+    Warning (13410): Pin "LED[9]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 7
+    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX0[6]" is stuck at VCC File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX1[6]" is stuck at VCC File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX2[6]" is stuck at VCC File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "HEX3[6]" is stuck at VCC File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 8
+    Warning (13410): Pin "Data_to_CPU[10]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 17
+    Warning (13410): Pin "Data_to_CPU[11]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 17
+    Warning (13410): Pin "Data_to_CPU[12]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 17
+    Warning (13410): Pin "Data_to_CPU[13]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 17
+    Warning (13410): Pin "Data_to_CPU[14]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 17
+    Warning (13410): Pin "Data_to_CPU[15]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 17
+    Warning (13410): Pin "Data_from_SRAM[0]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[1]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[2]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[3]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[4]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[5]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[6]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[7]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[8]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[9]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[10]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[11]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[12]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[13]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[14]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
+    Warning (13410): Pin "Data_from_SRAM[15]" is stuck at GND File: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv Line: 19
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 8 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/output_files/lab5.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 590 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 997 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
-    Info (21059): Implemented 38 output pins
-    Info (21061): Implemented 523 logic cells
-    Info (21064): Implemented 16 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 4846 megabytes
-    Info: Processing ended: Tue Feb 28 16:57:51 2023
+    Info (21059): Implemented 369 output pins
+    Info (21061): Implemented 615 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 68 warnings
+    Info: Peak virtual memory: 4843 megabytes
+    Info: Processing ended: Wed Mar 01 19:50:16 2023
     Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Total CPU time (on all processors): 00:00:19
 
 
 +------------------------------------------+
