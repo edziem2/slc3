@@ -32,9 +32,11 @@ module slc3(
 	output logic [15:0] tb_IR,
 	output logic [7:0] stateNum, // FOR DEBUGGING
 	output logic [15:0] Data_to_CPU, // FOR DEBUGGING
-	output logic LD_MDR, // FOR DEBUGGING
+	output logic LD_MDR, LD_CC, // FOR DEBUGGING
 	output logic [15:0] DEBUGADDR_1, DEBUGADDR_2, SR1_Out, SR2_Out, Bus, R0, R1, R2, R3, R4, R5, R6, R7, // FOR DEBUGGING
-	output logic [1:0] BUSMUX // FOR DEBUGGING
+	output logic [1:0] BUSMUX, // FOR DEBUGGING
+	output logic BEN, // FOR DEBUGGING
+	output logic [2:0] CC, CC_In // FOR DEBUGGING
 );
 
 
@@ -49,18 +51,18 @@ HexDriver hex_drivers[3:0] (hex_4, {HEX3, HEX2, HEX1, HEX0});
 
 
 // Internal connections
-// logic LD_MDR;
+// logic LD_MDR, BEN, LD_CC;
 // logic [15:0] Data_to_CPU, SR1_Out, SR2_Out;
-logic LD_MAR, LD_IR, LD_BEN, LD_CC, LD_REG, LD_PC, LD_LED;
+// logic [2:0] CC, CC_In;
+logic LD_MAR, LD_IR, LD_BEN, LD_REG, LD_PC, LD_LED;
 logic GatePC, GateMDR, GateALU, GateMARMUX;
 logic SR2MUX, ADDR1MUX, MARMUX;
 logic MIO_EN, DRMUX, SR1MUX;
 logic [1:0] PCMUX, ADDR2MUX, ALUK;
 logic [15:0] MDR_In, PC_In, ALU_B;
 logic [15:0] MAR, MDR, IR, PC, ALU;
-logic [2:0] CC_In, CC;
 logic [2:0] SR1, DR; // for Reg file
-logic BEN_IN, BEN;
+logic BEN_IN;
 
 
 // Bus

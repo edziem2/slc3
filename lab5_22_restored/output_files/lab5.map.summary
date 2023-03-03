@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Wed Mar 01 20:13:56 2023
+Analysis & Synthesis Status : Successful - Thu Mar 02 19:19:45 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : lab5
 Top-level Entity Name : slc3_testtop
 Family : MAX 10
-Total logic elements : 648
-    Total combinational functions : 518
-    Dedicated logic registers : 224
-Total registers : 224
-Total pins : 382
+Total logic elements : 664
+    Total combinational functions : 533
+    Dedicated logic registers : 228
+Total registers : 228
+Total pins : 390
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

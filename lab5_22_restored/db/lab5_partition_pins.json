@@ -336,6 +336,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "BEN",
+					"strict" : false
+				},
+				{
+					"name" : "LD_CC",
+					"strict" : false
+				},
+				{
 					"name" : "ADDR[0]",
 					"strict" : false
 				},
@@ -1237,6 +1245,30 @@
 				},
 				{
 					"name" : "BUSMUX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CC_In[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CC_In[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CC_In[2]",
 					"strict" : false
 				},
 				{

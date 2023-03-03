@@ -23,7 +23,7 @@ module datapath (
 							  Bus,
 							  MDR_In,
 							  ALU_B,
-	output logic [2:0] SR1, DR,
+	output logic [2:0] SR1, DR, CC_In,
 	output logic BEN_In,
 	output logic [15:0] DEBUGADDR_1, DEBUGADDR_2, // FOR DEBUGGING
 	output logic [1:0] BUSMUX // FOR DEBUGGING
@@ -65,6 +65,12 @@ begin
 	// CC to BEN_In logic
 	BEN_In = (IR[11] & CC[2]) | (IR[10] & CC[1]) | (IR[9] & CC[0]);
 	
+	if (Bus[15] == 1'b1)
+		CC_In = 3'b100;
+	else if (Bus == 16'h0000)
+		CC_In = 3'b010;
+	else
+		CC_In = 3'b001;
 end
 
 

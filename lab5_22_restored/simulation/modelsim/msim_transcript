@@ -12,17 +12,17 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:14 on Mar 01,2023
+# Start time: 19:20:01 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv 
 # -- Compiling module test_memory
 # 
 # Top level modules:
 # 	test_memory
-# End time: 20:14:14 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:01 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:14 on Mar 01,2023
+# Start time: 19:20:01 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv 
 # -- Compiling module sync
 # -- Compiling module sync_r0
@@ -32,162 +32,162 @@
 # 	sync
 # 	sync_r0
 # 	sync_r1
-# End time: 20:14:14 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:01 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:01 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv 
 # -- Compiling package SLC3_2
 # 
 # Top level modules:
 # 	--none--
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:01 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:01 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv 
 # -- Compiling module Mem2IO
 # 
 # Top level modules:
 # 	Mem2IO
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:01 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux2_1_16.sv 
 # -- Compiling module mux2_1_16
 # 
 # Top level modules:
 # 	mux2_1_16
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv 
 # -- Compiling module mux4_1_16
 # 
 # Top level modules:
 # 	mux4_1_16
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv 
 # -- Compiling module reg_16
 # ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_16.sv(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	reg_16
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/HexDriver.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/HexDriver.sv 
 # -- Compiling module HexDriver
 # 
 # Top level modules:
 # 	HexDriver
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_3.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_3.sv 
 # -- Compiling module reg_3
 # 
 # Top level modules:
 # 	reg_3
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_1.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_1.sv 
 # -- Compiling module reg_1
 # 
 # Top level modules:
 # 	reg_1
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/lookahead_adder.sv 
 # -- Compiling module lookahead_adder
 # 
 # Top level modules:
 # 	lookahead_adder
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/fourbit_lookahead.sv 
 # -- Compiling module fourbit_lookahead
 # 
 # Top level modules:
 # 	fourbit_lookahead
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/full_adder.sv 
 # -- Compiling module full_adder
 # 
 # Top level modules:
 # 	full_adder
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_file.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:02 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/reg_file.sv 
 # -- Compiling module reg_file
 # 
 # Top level modules:
 # 	reg_file
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:02 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:03 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv 
 # -- Compiling module mux8_1_16
 # 
 # Top level modules:
 # 	mux8_1_16
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:03 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:03 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv 
 # -- Compiling package memory_contents_sv_unit
 # -- Importing package SLC3_2
@@ -195,62 +195,56 @@
 # 
 # Top level modules:
 # 	memory_parser
-# End time: 20:14:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:03 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:15 on Mar 01,2023
+# Start time: 19:20:03 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv 
 # -- Compiling package SLC3_2
-# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(307): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(329): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(374): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # -- Compiling package ISDU_sv_unit
 # -- Importing package SLC3_2
 # -- Compiling module ISDU
-# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(307): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(329): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv(374): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	ISDU
-# End time: 20:14:16 on Mar 01,2023, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 6
+# End time: 19:20:03 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:16 on Mar 01,2023
+# Start time: 19:20:03 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv 
 # -- Compiling module slc3
 # 
 # Top level modules:
 # 	slc3
-# End time: 20:14:16 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:03 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:16 on Mar 01,2023
+# Start time: 19:20:03 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv 
 # -- Compiling module slc3_testtop
 # 
 # Top level modules:
 # 	slc3_testtop
-# End time: 20:14:16 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:03 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/user1/Desktop/ECE\ 385/Lab_5/lab5_22_restored {C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:14:16 on Mar 01,2023
+# Start time: 19:20:03 on Mar 02,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored" C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv 
 # -- Compiling module slc3Test
 # 
 # Top level modules:
 # 	slc3Test
-# End time: 20:14:16 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 19:20:03 on Mar 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  slc3Test
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" slc3Test 
-# Start time: 20:14:16 on Mar 01,2023
+# Start time: 19:20:03 on Mar 02,2023
 # Loading sv_std.std
 # Loading work.slc3Test
 # Loading work.slc3_testtop
@@ -421,142 +415,1010 @@
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 950 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 950 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 990 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1030 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1030 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1070 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1130 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1130 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 1170 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 1170 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 1170 ns  Iteration: 6  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 1210 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 1270 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1290 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 1270 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1290 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 1310 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1330 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 1310 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1390 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 1350 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1450 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 1430 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1450 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 1430 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1490 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 1470 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1550 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 1530 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1550 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2270 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1610 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2270 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1610 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2310 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1650 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2370 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1710 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2410 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 1710 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2410 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2490 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2450 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2490 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2530 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2530 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2530 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2590 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2570 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2590 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 2630 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2630 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2630 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2690 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2670 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2690 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2750 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2730 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2750 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2790 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
-# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2790 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2790 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
 #    Time: 2850 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2850 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 2850 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2890 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3570 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 2950 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3570 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3010 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3610 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3010 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3670 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3050 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3670 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3110 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3710 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3110 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3710 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3170 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3750 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3170 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3830 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3210 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3830 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3270 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3870 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3270 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3930 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3330 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3930 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3330 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3990 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3370 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 3990 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3430 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4030 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3490 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4090 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3490 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4090 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3530 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4150 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3590 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4150 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3590 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4190 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3650 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4250 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3650 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4250 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3690 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4290 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3750 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4290 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3750 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4310 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3810 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4330 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3810 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4330 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3850 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4370 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3910 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4430 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3910 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4430 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 3970 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4490 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 4010 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4490 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 4070 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4530 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 4070 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4590 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 4110 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+#    Time: 4590 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
 # ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
-#    Time: 4170 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
-# End time: 20:16:23 on Mar 01,2023, Elapsed time: 0:02:07
-# Errors: 0, Warnings: 145
+#    Time: 4650 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4650 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4690 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4750 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4750 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4810 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4810 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4850 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4910 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4970 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 4970 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5010 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5070 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5130 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5130 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5170 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5230 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5230 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5290 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5290 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5330 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5390 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5390 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5450 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5450 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5490 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5550 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5550 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5590 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5590 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5590 ns  Iteration: 6  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5590 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5610 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5630 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5630 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5670 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5730 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5730 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5790 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5790 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5830 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5890 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5890 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5950 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5950 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 5990 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6050 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6050 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6090 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6090 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6110 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6130 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6130 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6170 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6230 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6230 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6290 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6290 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6330 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6390 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6390 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6430 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6450 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6470 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6470 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6510 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6570 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6570 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6630 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6630 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6670 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6730 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6730 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6790 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6790 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6830 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6890 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6890 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6950 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6950 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 6990 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7050 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7050 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7090 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7090 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7090 ns  Iteration: 6  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7090 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7110 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7130 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7130 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7170 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7230 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7230 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7290 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7290 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7330 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7390 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7390 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7450 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7450 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7490 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7550 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7550 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7590 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7590 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7610 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7630 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7630 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7670 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7730 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7730 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7790 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7790 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7830 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7890 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7890 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7930 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7950 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7970 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 7970 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8010 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8070 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8070 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8130 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8130 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8170 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8230 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8230 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8290 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8290 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8330 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8390 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8390 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8450 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8450 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8490 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8550 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8550 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8590 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8590 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8590 ns  Iteration: 6  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8590 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8610 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8630 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8630 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8670 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8730 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8730 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8790 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8790 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8830 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8890 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8890 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8950 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8950 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 8990 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9050 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9050 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9090 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9090 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9110 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9130 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9130 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9170 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9230 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9230 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9290 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9290 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9330 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9390 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9390 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9430 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9450 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9470 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9470 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9510 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9570 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9570 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9630 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9630 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9670 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9730 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9730 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9790 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9790 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9830 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9890 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9890 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9950 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9950 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 9990 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10050 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10050 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10090 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10090 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10090 ns  Iteration: 6  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10090 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10110 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10130 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10130 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10170 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10230 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10290 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10290 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10330 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10390 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10390 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10450 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10450 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10490 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10550 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10550 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10610 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10610 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10650 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10710 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10710 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10770 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10770 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10810 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10870 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10870 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10930 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10930 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 10970 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11030 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11030 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11070 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11090 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11110 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11110 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11150 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11210 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11210 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11270 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11270 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11310 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11370 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11370 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11430 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11430 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11470 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11530 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11530 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11590 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11590 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11630 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11690 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11690 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11730 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11730 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11730 ns  Iteration: 6  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11730 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11750 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11770 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11770 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11810 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11870 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11870 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11930 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11930 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 11970 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12030 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12030 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12090 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12090 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12130 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12190 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12190 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12250 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12250 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12290 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12350 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12350 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12410 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12410 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12450 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12510 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12510 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12570 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12570 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12610 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12670 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12670 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12710 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12730 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12750 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12750 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12790 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12850 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12850 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12910 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12910 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 12950 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13010 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13010 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13070 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13070 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13110 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13170 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13170 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13230 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13230 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13270 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13330 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13330 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13370 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13370 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13370 ns  Iteration: 6  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13370 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13390 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13410 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13410 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13450 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13510 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13510 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13570 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13570 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13610 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13670 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13670 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13730 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13730 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13770 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13830 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13830 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13870 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13870 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13890 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13910 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13910 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 13950 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14010 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14010 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14070 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14070 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14110 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14170 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14170 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14210 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14230 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14250 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14250 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14290 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14350 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14350 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14410 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14410 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14450 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14510 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14510 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14570 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14570 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14610 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14670 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14670 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14730 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14730 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14770 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14830 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14830 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14870 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14870 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14870 ns  Iteration: 6  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14870 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14890 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14910 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14910 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 14950 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15010 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15010 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15070 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15070 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15110 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15170 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15170 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15230 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15230 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15270 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15330 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15330 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15390 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15390 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15430 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15490 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15490 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15550 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15550 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15590 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15650 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15650 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15710 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15710 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15750 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15810 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15810 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15850 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15870 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15890 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15890 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15930 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15990 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 15990 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16050 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16050 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16090 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16150 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16150 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16210 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16210 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16250 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16310 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16310 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16370 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16370 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16410 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16470 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16530 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16530 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16570 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16630 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16630 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16690 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16690 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16730 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16790 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16790 ns  Iteration: 5  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16830 ns  Iteration: 2  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16890 ns  Iteration: 4  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# ** Warning: (vsim-8315) C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux4_1_16.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 16890 ns  Iteration: 7  Instance: /slc3Test/s/slc/d0/BUS_MUX
+# End time: 19:20:30 on Mar 02,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 579

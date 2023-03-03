@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/simulation/modelsim
 valu
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1677723255
+Z2 !s110 1677806402
 !i10b 1
 !s100 ADoV9bTJBFlHI6h_bIO>k3
 I8>`=RadAO[CUP<U=i?hRT0
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1677723255.000000
+Z5 !s108 1677806402.000000
 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/alu.sv|
 !i113 1
@@ -37,13 +37,13 @@ vdatapath
 R1
 R2
 !i10b 1
-!s100 OamN3mFK[SCa11`?6YT2=0
-I5z2Ba@a]6_=7hA9eHfX@F1
+!s100 FTSEd:]g2G7MI6^MCH_aK2
+Im4EfnRfiio7jl3ljGbXfL2
 R3
 !s105 datapath_sv_unit
 S1
 R0
-w1677722145
+w1677805899
 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv
 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/datapath.sv
 L0 1
@@ -143,19 +143,19 @@ r1
 !s85 0
 31
 !i10b 1
-!s100 Qe`;dno=BFU@?MWiR9e^T1
-Ig90nN>M9m<c5Hdfe]en633
+!s100 :m6GOUkT02N_^AXm`PJ_42
+IiQb:Tc7[:akUef]MRmVIz2
 !s105 ISDU_sv_unit
 S1
 R0
-Z10 w1677714643
+Z10 w1677806239
 Z11 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv
 Z12 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv
 Z13 L0 21
 R4
-R5
-Z14 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv|
-Z15 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv|
+Z14 !s108 1677806403.000000
+Z15 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv|
+Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/ISDU.sv|
 !i113 1
 R6
 R7
@@ -177,12 +177,12 @@ R0
 R10
 R11
 R12
-Z16 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv
-Z17 L0 19
+Z17 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv
+Z18 L0 19
 R4
-R5
 R14
 R15
+R16
 !i113 1
 R6
 R7
@@ -215,7 +215,7 @@ R7
 R8
 vMem2IO
 R1
-R2
+Z19 !s110 1677806401
 !i10b 1
 !s100 ]Q:NN9GIUgNPLn_MG6U5k1
 IjH6bnzlZUHaiAzIHcHPbm2
@@ -223,7 +223,7 @@ R3
 !s105 Mem2IO_sv_unit
 S1
 R0
-Z18 w1676936401
+Z20 w1676936401
 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv
 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv
 L0 16
@@ -231,7 +231,7 @@ R4
 r1
 !s85 0
 31
-R5
+Z21 !s108 1677806401.000000
 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/Mem2IO.sv|
 !i113 1
@@ -252,14 +252,14 @@ I7J0WShB=JXMJmDQ3IfLXm2
 !i103 1
 S1
 R0
-R18
-Z19 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv
-Z20 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv
+R20
+Z22 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv
+Z23 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv
 L0 17
 R4
-R5
-Z21 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv|
-Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv|
+R14
+Z24 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv|
+Z25 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/memory_contents.sv|
 !i113 1
 R6
 R7
@@ -278,14 +278,14 @@ Ig@nZ8Dznn3kcSDMFdCNW12
 !s105 memory_contents_sv_unit
 S1
 R0
-R18
-R19
 R20
-R17
-R4
-R5
-R21
 R22
+R23
+R18
+R4
+R14
+R24
+R25
 !i113 1
 R6
 R7
@@ -342,7 +342,7 @@ R7
 R8
 vmux8_1_16
 R1
-R2
+Z26 !s110 1677806403
 !i10b 1
 !s100 G]m[d47W2I?95Q`c[Re6d2
 IWR;UBSVZdj4kn6X26d<NF2
@@ -358,7 +358,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/mux8_1_16.sv|
 !i113 1
@@ -467,15 +467,15 @@ R7
 R8
 vslc3
 R1
-Z23 !s110 1677723256
+R26
 !i10b 1
-!s100 aQJSGH78hb9GDKGR51=@Y0
-IYBGARQ?Qc1C@8T:L_T=fe3
+!s100 kQN;a[0aiYBXX_OIhXT:C0
+I4FKzo:@o;IPGcfBEnEK7W2
 R3
 !s105 slc3_sv_unit
 S1
 R0
-w1677723191
+w1677805137
 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv
 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv
 L0 20
@@ -483,7 +483,7 @@ R4
 r1
 !s85 0
 31
-Z24 !s108 1677723256.000000
+R14
 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3.sv|
 !i113 1
@@ -492,24 +492,24 @@ R7
 R8
 XSLC3_2
 R1
-R23
+R26
 !i10b 1
 !s100 Cz8_^@QRefP31?j=Zf>lj0
 I^>z0[GH;7<Wfg7;dP3T^31
 V^>z0[GH;7<Wfg7;dP3T^31
 S1
 R0
-R18
+R20
 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/SLC3_2.sv
-R16
+R17
 L0 24
 R4
 r1
 !s85 0
 31
-R5
 R14
 R15
+R16
 !i113 1
 R6
 R7
@@ -517,15 +517,15 @@ R8
 n@s@l@c3_2
 vslc3_testtop
 R1
-R23
+R26
 !i10b 1
-!s100 d0X:V1b;XR62V4hjfT[;?1
-IZ=NIM7;ACz:Koi:9MW3E]1
+!s100 P6LDJC50eaUmW;Z1WYal?3
+ImWJNj]HH:dl3oObL>TaD22
 R3
 !s105 slc3_testtop_sv_unit
 S1
 R0
-w1677716797
+w1677805198
 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv
 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv
 L0 4
@@ -533,7 +533,7 @@ R4
 r1
 !s85 0
 31
-R24
+R14
 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3_testtop.sv|
 !i113 1
@@ -542,15 +542,15 @@ R7
 R8
 vslc3Test
 R1
-R23
+R26
 !i10b 1
-!s100 Df?>Kci_dERmIB;d:FP?U3
-I`]b@lEDR?0VS2oAPgbfHi1
+!s100 P3LkBlMGC_QLfZEJAjU;e0
+I>an1Z9AWgUZNCHQkI7C1[3
 R3
 !s105 slc3Test_sv_unit
 S1
 R0
-w1677718879
+w1677806368
 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv
 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv
 L0 1
@@ -558,7 +558,7 @@ R4
 r1
 !s85 0
 31
-R24
+R14
 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/slc3Test.sv|
 !i113 1
@@ -568,23 +568,23 @@ R8
 nslc3@test
 vsync
 R1
-Z25 !s110 1677723254
+R19
 !i10b 1
 !s100 OHNUFN]797>kYzRL;ikZR2
 IYHYDzC8cL7HkYb_1UkP5H3
 R3
-Z26 !s105 synchronizers_sv_unit
+Z27 !s105 synchronizers_sv_unit
 S1
 R0
-R18
-Z27 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv
-Z28 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv
+R20
+Z28 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv
+Z29 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv
 L0 7
 R4
 r1
 !s85 0
 31
-Z29 !s108 1677723254.000000
+R21
 Z30 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv|
 Z31 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/synchronizers.sv|
 !i113 1
@@ -593,23 +593,23 @@ R7
 R8
 vsync_r0
 R1
-R25
+R19
 !i10b 1
 !s100 _Sn:CfHFjznVZen=7jc>C2
 I71WciAYm8bobAm2<5<U7W2
 R3
-R26
+R27
 S1
 R0
-R18
-R27
+R20
 R28
+R29
 R13
 R4
 r1
 !s85 0
 31
-R29
+R21
 R30
 R31
 !i113 1
@@ -618,23 +618,23 @@ R7
 R8
 vsync_r1
 R1
-R25
+R19
 !i10b 1
 !s100 4jfZd?z`MK2Y<NLFC0<QH2
 IHTRV:g<DXAkAR_H3FKDD11
 R3
-R26
+R27
 S1
 R0
-R18
-R27
+R20
 R28
+R29
 L0 42
 R4
 r1
 !s85 0
 31
-R29
+R21
 R30
 R31
 !i113 1
@@ -643,7 +643,7 @@ R7
 R8
 vtest_memory
 R1
-R25
+R19
 !i10b 1
 !s100 JAXhO?6GV:H>``me>_X5<1
 IU?85EmJ7zLZ0AjYjj5MIm2
@@ -651,7 +651,7 @@ R3
 !s105 test_memory_sv_unit
 S1
 R0
-R18
+R20
 8C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv
 FC:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv
 L0 26
@@ -659,7 +659,7 @@ R4
 r1
 !s85 0
 31
-R29
+R21
 !s107 C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored|C:/Users/user1/Desktop/ECE 385/Lab_5/lab5_22_restored/test_memory.sv|
 !i113 1

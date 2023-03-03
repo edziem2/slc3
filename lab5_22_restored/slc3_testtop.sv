@@ -15,11 +15,12 @@ module slc3_testtop(
 	//inout wire [15:0] Data 
 	output logic [7:0] stateNum, // FOR DEBUGGING
 	output logic [15:0] Data_to_CPU, // FOR DEBUGGING
-	output logic LD_MDR, // FOR DEBUGGING
+	output logic LD_MDR, BEN, LD_CC, // FOR DEBUGGING
 	output logic [15:0] Data_from_SRAM, // FOR DEBUGGING
 	output logic [15:0] ADDR, // FOR DEBUGGING
 	output logic [15:0] DEBUGADDR_1, DEBUGADDR_2, SR1_Out, SR2_Out, Bus, R0, R1, R2, R3, R4, R5, R6, R7, // FOR DEBUGGING
-	output logic [1:0] BUSMUX // FOR DEBUGGING
+	output logic [1:0] BUSMUX, // FOR DEBUGGING
+	output logic [2:0] CC, CC_In // FOR DEBUGGING
 );
 // Input button synchronizer to cross clock domain
 logic RUN_S, CONTINUE_S;

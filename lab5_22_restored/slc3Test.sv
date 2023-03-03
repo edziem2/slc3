@@ -11,11 +11,13 @@ logic [9:0] LED;
 logic [15:0] tb_MAR, tb_MDR, tb_PC, tb_IR;
 logic [7:0] stateNum; // FOR DEBUGGING
 logic [15:0] Data_to_CPU; // FOR DEBUGGING
-logic LD_MDR; // FOR DEBUGGING
+logic LD_MDR, BEN, LD_CC; // FOR DEBUGGING
 logic [15:0] Data_from_SRAM;
 logic [15:0] ADDR;
 logic [15:0] DEBUGADDR_1, DEBUGADDR_2, SR1_Out, SR2_Out, Bus, R0, R1, R2, R3, R4, R5, R6, R7; // FOR DEBUGGING
 logic [1:0] BUSMUX; // FOR DEBUGGING
+logic [2:0] CC, CC_In; // FOR DEBUGGING
+
 
 
 slc3_testtop s(.*);
@@ -30,18 +32,20 @@ end
 
 initial begin: TEST_VECTORS
 Continue = 1'b0; // low activate
-SW = 10'h14;
+SW = 10'd49;
 Run = 1'b0;
 
 #6 Continue = 1'b1;
 
 #4 Run = 1'b1;
 
-#100 Continue = 1'b0;
+#225 SW = 10'h0D;
+
+#6 Continue = 1'b0;
 
 #3 Continue = 1'b1;
 
-#100 SW = 10'h14; 
+#100 SW = 10'h12; 
 
 #6 Continue = 1'b0;
 

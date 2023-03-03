@@ -237,7 +237,11 @@ module ISDU (   input logic         Clk,
 			S_04_1:
 				Next_state = S_04_2;
 			S_00_1:
-				Next_state = S_00_2;
+				begin
+				Next_state = S_18;
+				if(BEN)
+					Next_state = S_00_2;
+				end
 
 			default : ;
 
@@ -304,7 +308,7 @@ module ISDU (   input logic         Clk,
 				begin
 					GateMARMUX = 1'b1; // Output of MAR Computation drives the bus
 					LD_MAR = 1'b1; // Load MAR
-					ADDR2MUX = 1'b01; // ADDR2MUX selects SEXT[5:0]
+					ADDR2MUX = 2'b01; // ADDR2MUX selects SEXT[5:0]
 					ADDR1MUX = 1'b1; // ADDR1MUX selects SR1 Out
 					SR1MUX = 1'b0; // SR1MUX selects SR1 (aka BaseR)
 				end
@@ -326,7 +330,7 @@ module ISDU (   input logic         Clk,
 				begin // Below is IDENTICAL to S_06_1
 					GateMARMUX = 1'b1; // Output of MAR Computation drives the bus
 					LD_MAR = 1'b1; // Load MAR
-					ADDR2MUX = 1'b01; // ADDR2MUX selects SEXT[5:0]
+					ADDR2MUX = 2'b01; // ADDR2MUX selects SEXT[5:0]
 					ADDR1MUX = 1'b1; // ADDR1MUX selects SR1 Out
 					SR1MUX = 1'b0; // SR1MUX selects SR1 (aka BaseR)
 				end
@@ -371,7 +375,7 @@ module ISDU (   input logic         Clk,
 				begin
 				PCMUX = 2'b01; // Compute next PC
 				ADDR1MUX = 1'b0; // Get PC
-				ADDR2MUX = 1'b10; // Selects off9
+				ADDR2MUX = 2'b10; // Selects off9
 				LD_PC = 1'b1; // Load PC
 				end
 			// You need to finish the rest of states.....
